@@ -1,7 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+
 import Link from 'next/link';
+import Image from 'next/image';
+
 import styles from '../styles/Navigation.module.css';
 
 export default function Navigation() {
@@ -33,11 +36,15 @@ export default function Navigation() {
     return (
         <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
             <div className={`container ${styles.navContainer}`}>
-                <Link href="/" className={styles.logo}>
-                    <span className={styles.logoIcon}>{'</'}</span>
-                    <span className={styles.logoText}>Portfolio</span>
-                    <span className={styles.logoIcon}>{' />'}</span>
-                </Link>
+
+                <Image
+                    src="/images/logo.png"
+                    alt="Portfolio Logo"
+                    width={160}
+                    height={40}
+                    className={styles.logoImage}
+                    priority
+                />
 
                 <div className={`${styles.navLinks} ${isMobileMenuOpen ? styles.active : ''}`}>
                     {navLinks.map((link, index) => (

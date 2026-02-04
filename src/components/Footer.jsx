@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import styles from '../styles/Footer.module.css';
 import { personalInfo } from '../data/portfolio-data';
 
@@ -15,11 +16,17 @@ export default function Footer() {
             <div className="container">
                 <div className={styles.footerContent}>
                     <div className={styles.footerSection}>
+
                         <div className={styles.footerBrand}>
-                            <span className={styles.brandIcon}>{'</'}</span>
-                            <span className={styles.brandText}>Portfolio</span>
-                            <span className={styles.brandIcon}>{' />'}</span>
+                            <Image
+                                src="/images/logo.png"
+                                alt="Portfolio Logo"
+                                width={160}
+                                height={45}
+                                className={styles.footerLogo}
+                            />
                         </div>
+
                         <p className={styles.footerDescription}>
                             Building innovative solutions with cutting-edge technology.
                             Specialized in blockchain, AI, and full-stack development.

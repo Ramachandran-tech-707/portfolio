@@ -33,9 +33,17 @@
 .footerBrand {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
+}
+
+.footerLogo {
+  height: 130px;
+  width: 250px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footerLogo:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
 .brandIcon {
@@ -227,5 +235,9 @@
 
   .copyright {
     text-align: center;
+  }
+
+  .footerLogo {
+    max-height: 38px;
   }
 }
