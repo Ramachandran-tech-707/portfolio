@@ -1,0 +1,243 @@
+.footer {
+  background: var(--darker-bg);
+  padding: 4rem 0 2rem;
+  border-top: 1px solid var(--border-color);
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gradient-1);
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footerBrand {
+  display: flex;
+  align-items: center;
+}
+
+.footerLogo {
+  height: 150px;
+  width: 250px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footerLogo:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.brandIcon {
+  color: var(--primary-color);
+  font-weight: 900;
+}
+
+.brandText {
+  margin: 0 0.5rem;
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footerDescription {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  max-width: 400px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 12px;
+  color: var(--primary-light);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.socialLink:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-5px) rotate(5deg);
+  border-color: var(--primary-light);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+}
+
+.footerTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.footerLinks {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.footerLinks li a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.footerLinks li a::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    left 0.3s ease;
+}
+
+.footerLinks li a:hover {
+  color: var(--primary-light);
+  padding-left: 1.5rem;
+}
+
+.footerLinks li a:hover::before {
+  opacity: 1;
+  left: 0;
+}
+
+.techBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.techBadge {
+  padding: 6px 14px;
+  background: rgba(20, 184, 166, 0.1);
+  color: var(--accent-color);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(20, 184, 166, 0.3);
+  transition: all 0.3s ease;
+}
+
+.techBadge:hover {
+  background: rgba(20, 184, 166, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(20, 184, 166, 0.3);
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  text-align: left;
+}
+
+.copyright p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.builtWith {
+  font-size: 0.85rem !important;
+  color: var(--text-secondary) !important;
+}
+
+.scrollTop {
+  width: 50px;
+  height: 50px;
+  background: var(--gradient-1);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(99, 102, 241, 0.3);
+}
+
+.scrollTop:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.5);
+}
+
+.scrollTop svg {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .footerContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .footerLogo {
+    max-height: 38px;
+  }
+}
