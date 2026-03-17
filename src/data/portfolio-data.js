@@ -1,11 +1,11 @@
 export const personalInfo = {
     name: "Senior Software Developer",
-    title: "Full Stack Developer & Blockchain Specialist",
+    title: "Full Stack Developer | Blockchain & Web3 Specialist",
     experience: "7+ Years",
     email: "chandrur707@gmail.com",
     github: "https://github.com/Ramachandran-tech-707",
     linkedin: "https://linkedin.com/in/chandru707",
-    description: "Passionate Senior Software Developer with 7 years of expertise in building scalable web applications, blockchain solutions, and AI-powered tools. Specialized in creating innovative solutions across multiple domains."
+    description: "Passionate Senior Software Developer with 7+ years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
 };
 
 export const skills = {
@@ -35,7 +35,9 @@ export const skills = {
         "ICO/IEO Platforms",
         "Custom Crypto Payment Gateway",
         "Orderbook/Exchange Apps",
-        "Crypto Wallet Generation"
+        "Crypto Wallet Development",
+        "Smart Contract Integration",
+        "DEX Applications"
     ],
     "E-commerce & CMS": [
         "E-commerce Applications",
@@ -72,7 +74,22 @@ export const skills = {
         'Rate-limit Handling',
         'API Error Handling',
         'JSON/XML Parsing'
-    ]
+    ],
+    "Web3 & Wallet Development": [
+        "MetaMask Clone Development",
+        "Browser Extension (Chrome & Firefox)",
+        "WalletConnect v2",
+        "Ethers.js",
+        "Web3.js",
+        "Multi-chain Integration",
+        "Transaction Signing",
+        "Gas Fee Handling",
+        "Account Management (HD Wallets)",
+        "Token (ERC-20) Integration",
+        "NFT (ERC-721/1155)",
+        "Blockchain Event Listening",
+        "DApp Integration"
+    ],
 };
 
 export const projects = [
@@ -218,6 +235,29 @@ export const projects = [
             "Production-ready security",
             "Multi-chain architecture"
         ]
+    },
+    {
+        id: 10,
+        title: "MetaMask Clone Wallet Extension",
+        category: "Web3",
+        description: "Developed a fully functional MetaMask-like crypto wallet extension using Vite + React.js. Supports wallet creation, import via seed phrase, transaction signing, token management, and real-time blockchain interaction.",
+        technologies: [
+            "Vite",
+            "React.js",
+            "Ethers.js",
+            "Web3.js",
+            "Browser Extension APIs"
+        ],
+        highlights: [
+            "Wallet creation & recovery (12/24 seed phrase)",
+            "Multi-account management",
+            "Send/receive crypto transactions",
+            "ERC-20 token support",
+            "Real-time transaction notifications",
+            "Secure storage & encryption",
+            "Chrome extension support",
+            "Web3 DApp connection (inject provider)"
+        ]
     }
 ];
 
@@ -236,7 +276,11 @@ export const experience = [
             "Managed databases (MongoDB, MySQL) with optimization for high-performance applications",
             "Integrated web scraping solutions for data extraction and processing",
             "Utilized modern development tools: Cursor IDE, Bolt AI, Replit, Anti-Gravity for rapid development",
-            "Maintained version control and collaborated using Git, GitHub, and GitLab"
+            "Maintained version control and collaborated using Git, GitHub, and GitLab",
+            "Developed MetaMask-like Web3 wallet extension with multi-account support, secure key management, and DApp connectivity",
+            "Built browser extension architecture for Chrome with Web3 provider injection",
+            "Handled blockchain event listeners for real-time transaction notifications",
+            "Integrated WalletConnect and multi-chain wallet systems for DeFi and NFT platforms"
         ]
     }
 ];
@@ -281,5 +325,10 @@ export const services = [
         icon: "📊",
         title: "Database Design",
         description: "Optimized database architecture using MongoDB, MySQL, and SQL for scalable applications"
-    }
+    },
+    {
+        icon: "🧩",
+        title: "Web3 & DApp Development",
+        description: "Custom Web3 applications including wallet extensions, DApp integration, smart contract interaction, and multi-chain solutions"
+    },
 ];
