@@ -71,7 +71,7 @@ export default function Resume() {
                         <div className={styles.expHeader}>
                             <div>
                                 <h3 className={styles.expPosition}>Senior Software Developer</h3>
-                                <p className={styles.expCompany}>Software Development & Consulting — Freelance / Full-time</p>
+                                <p className={styles.expCompany}>Software Development • Hybrid / Remote • Full-Time</p>
                             </div>
                             <span className={styles.expDuration}>2018 – Present (7+ Years)</span>
                         </div>
