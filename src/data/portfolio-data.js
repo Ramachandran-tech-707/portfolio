@@ -19,7 +19,9 @@ export const skills = {
     ],
     "Frontend Development": [
         "Next.js",
+        "React.js",
         "JavaScript",
+        "TypeScript",
         "HTML",
         "Custom CSS",
         "Responsive Design"
