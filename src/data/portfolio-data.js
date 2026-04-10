@@ -29,7 +29,7 @@ export const skills = {
     "Databases": [
         "MongoDB",
         "MySQL",
-        "SQL",
+        "PostgreSQL",
         "Database Design"
     ],
     "Blockchain & Crypto": [
@@ -126,7 +126,7 @@ export const projects = [
         title: "ICO/IEO Platform",
         category: "Blockchain",
         description: "Comprehensive platform for Initial Coin Offerings and Initial Exchange Offerings with KYC integration, smart contract deployment, and token distribution mechanisms.",
-        technologies: ["Node.js", "React", "MySQL", "Smart Contracts"],
+        technologies: ["Next.js", "Node.js", "MySQL", "Smart Contracts"],
         highlights: [
             "KYC/AML integration",
             "Token sale management",
@@ -139,7 +139,7 @@ export const projects = [
         title: "Crypto Exchange Application",
         category: "Blockchain",
         description: "Full-featured cryptocurrency exchange with orderbook management, real-time trading, and advanced charting capabilities. Supports limit, market, and stop-loss orders.",
-        technologies: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
+        technologies: ["Next.js", "Node.js", "Express.js", "MySQL", "WebSocket"],
         highlights: [
             "Real-time orderbook",
             "Trading engine",
@@ -152,7 +152,7 @@ export const projects = [
         title: "Enterprise E-commerce Platform",
         category: "E-commerce",
         description: "Scalable e-commerce solution with inventory management, payment gateway integration, and advanced analytics. Handles thousands of products and concurrent users.",
-        technologies: ["Next.js", "Node.js", "Mongo DB", "Payment APIs"],
+        technologies: ["Laravel", "Node.js", "Mongo DB", "Payment APIs"],
         highlights: [
             "Multi-vendor support",
             "Inventory management",
@@ -165,7 +165,7 @@ export const projects = [
         title: "Universal Crypto Wallet Generator",
         category: "Blockchain",
         description: "Node.js-based tool for generating crypto wallet addresses across multiple blockchain networks. Supports Bitcoin, Ethereum, and various altcoins with hierarchical deterministic wallet support.",
-        technologies: ["Node.js", "Cryptography", "Blockchain SDKs"],
+        technologies: ["React.js", "Express.js", "Wagmi", "Ethers.js", "Web3.js"],
         highlights: [
             "Multi-chain support",
             "HD wallet generation",
@@ -219,9 +219,7 @@ export const projects = [
                 "WalletConnect (300+ wallets)",
                 "Coinbase Wallet",
                 "Trust Wallet",
-                "Rainbow",
-                "Ledger",
-                "Trezor"
+                "Rainbow"
             ],
             features: [
                 "Universal wallet modal",
@@ -326,7 +324,7 @@ export const services = [
     {
         icon: "📊",
         title: "Database Design",
-        description: "Optimized database architecture using MongoDB, MySQL, and SQL for scalable applications"
+        description: "Optimized database architecture using MongoDB, MySQL, and PostgreSQL for scalable applications"
     },
     {
         icon: "🧩",
