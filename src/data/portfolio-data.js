@@ -332,3 +332,16 @@ export const services = [
         description: "Custom Web3 applications including wallet extensions, DApp integration, smart contract interaction, and multi-chain solutions"
     },
 ];
+
+export const education = [
+    {
+        degree: "MCA (Master of Computer Applications)",
+        institution: "Thiagarajar Engineering College, Madurai",
+        duration: "2015 – 2018"
+    },
+    {
+        degree: "Bsc(CS) (Bachelor of Science in Computer Science)",
+        institution: "The American College, Madurai",
+        duration: "2012 – 2015"
+    }
+];

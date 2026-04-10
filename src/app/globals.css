@@ -495,3 +495,21 @@ section {
   white-space: nowrap;
   animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
 }
+
+/* ===== GLOBAL PRINT STYLES (for /resume page) ===== */
+@media print {
+  @page {
+    margin: 1.5cm 1.8cm;
+    size: A4;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #1a202c !important;
+  }
+}

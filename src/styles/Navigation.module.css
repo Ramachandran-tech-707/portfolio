@@ -113,8 +113,15 @@
    CTA BUTTON
 ========================= */
 
+.resumeBtn {
+  animation: fadeInDown 0.6s ease-out 0.5s forwards;
+  opacity: 0;
+  font-size: 0.9rem !important;
+  padding: 10px 20px !important;
+}
+
 .ctaBtn {
-  margin-left: 1rem;
+  margin-left: 0.25rem;
   animation: fadeInDown 0.6s ease-out 0.6s forwards;
   opacity: 0;
 }

@@ -1,0 +1,413 @@
+/* ===== RESUME WRAPPER (screen layout) ===== */
+.resumeWrapper {
+    min-height: 100vh;
+    background: #f8fafc;
+    padding: 2rem 1rem 4rem;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* ===== ACTION BAR (screen only) ===== */
+.actionBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.backBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.2rem;
+    background: #1e293b;
+    color: #a5b4fc;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+.backBtn:hover {
+    background: #334155;
+    color: #c7d2fe;
+}
+
+.printBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.4rem;
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.printBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.45);
+}
+
+/* ===== RESUME DOCUMENT ===== */
+.resume {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.12);
+    padding: 3rem 3.5rem;
+    color: #1a202c;
+    line-height: 1.65;
+}
+
+/* ===== HEADER ===== */
+.header {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #1a202c;
+    margin-bottom: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.jobTitle {
+    font-size: 1.05rem;
+    color: #4f46e5;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.contactRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    font-size: 0.88rem;
+    color: #374151;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.contactRow a {
+    color: #4f46e5;
+    text-decoration: none;
+}
+
+.contactRow a:hover {
+    text-decoration: underline;
+}
+
+/* ===== DIVIDER ===== */
+.divider {
+    border: none;
+    border-top: 2px solid #e2e8f0;
+    margin: 1.25rem 0;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    margin-bottom: 0.25rem;
+}
+
+.sectionTitle {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1a202c;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #6366f1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* ===== SUMMARY ===== */
+.summary {
+    font-size: 0.95rem;
+    color: #374151;
+    line-height: 1.7;
+}
+
+/* ===== SKILLS ===== */
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.6rem 1.5rem;
+}
+
+.skillCategory {
+    margin-bottom: 0.4rem;
+}
+
+.skillCategoryTitle {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 0.15rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.skillList {
+    font-size: 0.87rem;
+    color: #4b5563;
+    line-height: 1.5;
+}
+
+/* ===== EXPERIENCE ===== */
+.experienceItem {
+    margin-bottom: 1rem;
+}
+
+.expHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.expPosition {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a202c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.expCompany {
+    font-size: 0.9rem;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 0.1rem;
+}
+
+.expDuration {
+    font-size: 0.87rem;
+    color: #4f46e5;
+    font-weight: 600;
+    white-space: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #eef2ff;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+
+.expList {
+    list-style: disc;
+    padding-left: 1.4rem;
+    font-size: 0.9rem;
+    color: #374151;
+    line-height: 1.65;
+}
+
+.expList li {
+    margin-bottom: 0.35rem;
+}
+
+/* ===== PROJECTS ===== */
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 1rem;
+}
+
+.projectItem {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    break-inside: avoid;
+}
+
+.projectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.projectName {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a202c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.projectCategory {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #4f46e5;
+    background: #eef2ff;
+    border-radius: 4px;
+    padding: 0.15rem 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.projectDesc {
+    font-size: 0.85rem;
+    color: #4b5563;
+    line-height: 1.55;
+    margin-bottom: 0.4rem;
+}
+
+.projectTech {
+    font-size: 0.83rem;
+    color: #374151;
+    margin-bottom: 0.35rem;
+}
+
+.projectHighlights {
+    list-style: disc;
+    padding-left: 1.3rem;
+    font-size: 0.83rem;
+    color: #4b5563;
+}
+
+.projectHighlights li {
+    margin-bottom: 0.2rem;
+}
+
+/* ===== EDUCATION ===== */
+.educationItem {
+    margin-bottom: 0.8rem;
+}
+
+.eduDegree {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a202c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.eduDetails {
+    font-size: 0.88rem;
+    color: #6b7280;
+}
+
+.certTitle {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 0.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.certList {
+    font-size: 0.88rem;
+    color: #4b5563;
+}
+
+/* ===== COMPETENCIES ===== */
+.competenciesList {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.35rem 2rem;
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+.competenciesList li::before {
+    content: '✓ ';
+    color: #6366f1;
+    font-weight: 700;
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    .resumeWrapper {
+        background: #fff !important;
+        padding: 0 !important;
+        min-height: unset;
+    }
+
+    .actionBar {
+        display: none !important;
+    }
+
+    .resume {
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .projectsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projectItem {
+        break-inside: avoid;
+    }
+
+    .section {
+        break-inside: avoid;
+    }
+
+    .contactRow :global(a) {
+        color: #4f46e5 !important;
+        text-decoration: none !important;
+    }
+
+    .sectionTitle {
+        color: #1a202c !important;
+        border-bottom-color: #6366f1 !important;
+    }
+
+    .expDuration {
+        background: #eef2ff !important;
+        color: #4f46e5 !important;
+    }
+
+    .projectCategory {
+        background: #eef2ff !important;
+        color: #4f46e5 !important;
+    }
+}
+
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 680px) {
+    .resume {
+        padding: 2rem 1.5rem;
+    }
+
+    .name {
+        font-size: 1.8rem;
+    }
+
+    .skillsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .projectsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .competenciesList {
+        grid-template-columns: 1fr;
+    }
+
+    .expHeader {
+        flex-direction: column;
+    }
+}

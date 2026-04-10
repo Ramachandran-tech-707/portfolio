@@ -33,6 +33,8 @@ export default function Navigation() {
         { href: '#contact', label: 'Contact' }
     ];
 
+    const isHomePage = typeof window !== 'undefined' && window.location.pathname === '/';
+
     return (
         <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
             <div className={`container ${styles.navContainer}`}>
@@ -58,6 +60,9 @@ export default function Navigation() {
                             {link.label}
                         </a>
                     ))}
+                    <Link href="/resume" className={`btn btn-secondary ${styles.resumeBtn}`}>
+                        📄 Resume
+                    </Link>
                     <a href="#contact" className={`btn btn-primary ${styles.ctaBtn}`}>
                         Hire Me
                     </a>

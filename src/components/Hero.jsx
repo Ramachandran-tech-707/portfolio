@@ -94,6 +94,7 @@ export default function Hero() {
                         </div>
                     </div>
 
+
                     <div className={`${styles.ctaButtons} fade-in delay-6`}>
                         <a href="#projects" className="btn btn-primary">
                             View My Work
@@ -101,7 +102,11 @@ export default function Hero() {
                         <a href="#contact" className="btn btn-secondary">
                             Get In Touch
                         </a>
+                        <a href="/resume" className="btn btn-secondary">
+                            📄 View Resume
+                        </a>
                     </div>
+
                 </div>
 
                 <div className={`${styles.heroVisual} scale-in delay-3`}>
