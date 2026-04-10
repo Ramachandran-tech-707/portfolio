@@ -48,12 +48,14 @@ export const skills = {
         "Shopping Cart Systems"
     ],
     "AI & Automation Tools": [
+        "n8n Automation",
         "Claude AI",
         "ChatGPT",
         "Gemini AI",
         "Cursor IDE",
         "Replit",
-        "n8n Automation",
+        "Github Copilot",
+        "VsCode AI Tools",
         "Anti-Gravity"
     ],
     "Web Scraping": [
@@ -275,7 +277,7 @@ export const experience = [
             "Built RESTful APIs and microservices using Node.js, Express.js, and Laravel",
             "Managed databases (MongoDB, MySQL) with optimization for high-performance applications",
             "Integrated web scraping solutions for data extraction and processing",
-            "Utilized modern development tools: Cursor IDE, Bolt AI, Replit, Anti-Gravity for rapid development",
+            "Utilized modern development tools: Cursor IDE, Anti-Gravity, Github Copilot, VsCode AI Tools, Replit and Bolt AI for rapid development",
             "Maintained version control and collaborated using Git, GitHub, and GitLab",
             "Developed MetaMask-like Web3 wallet extension with multi-account support, secure key management, and DApp connectivity",
             "Built browser extension architecture for Chrome with Web3 provider injection",
@@ -319,7 +321,7 @@ export const services = [
     {
         icon: "🎨",
         title: "Custom Development",
-        description: "Tailored solutions using cutting-edge tools: Cursor IDE, Bolt AI, Replit, Anti-Gravity"
+        description: "Tailored solutions using cutting-edge tools: Cursor IDE, Anti-Gravity, Github Copilot, VsCode AI Tools, Replit and Bolt AI."
     },
     {
         icon: "📊",

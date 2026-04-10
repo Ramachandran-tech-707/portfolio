@@ -130,7 +130,7 @@ export default function Resume() {
                     ))}
                     <div className={styles.certList}>
                         <h3 className={styles.certTitle}>Continuous Learning & Tools</h3>
-                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, Bolt AI, and Anti-Gravity AI.</p>
+                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI and Bolt AI.</p>
                     </div>
                 </section>
 
@@ -140,13 +140,13 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Core Competencies</h2>
                     <ul className={styles.competenciesList}>
-                        <li>Full Stack Web Development (Node.js, Next.js, React, PHP/Laravel)</li>
+                        <li>Full Stack Web Development (Node.js, Next.js, React, Express.js, PHP/Laravel)</li>
                         <li>Blockchain & DeFi Application Development</li>
                         <li>Web3 Wallet & Browser Extension Development</li>
                         <li>Smart Contract Integration (Ethereum, EVM chains)</li>
                         <li>API Design, Development & Third-Party Integration</li>
-                        <li>Database Architecture & Optimization (MongoDB, MySQL)</li>
-                        <li>AI-Powered Workflow Automation (n8n, Claude, GPT, Gemini)</li>
+                        <li>Database Architecture & Optimization (MySQL, MongoDB, PostgreSQL)</li>
+                        <li>AI-Powered Workflow Automation (n8n, Claude, GPT, Gemini, Anti-gravity, VsCode Github Copilot)</li>
                         <li>E-commerce Platform Development</li>
                         <li>Agile Development & Version Control (Git, GitHub, GitLab)</li>
                         <li>Web Scraping, Data Extraction & Processing</li>
