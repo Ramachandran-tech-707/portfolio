@@ -112,9 +112,7 @@ export default function Resume() {
                                     <h3 className={styles.projectName}>{project.title}</h3>
                                     <span className={styles.projectCategory}>{project.category}</span>
                                 </div>
-                                <p className={styles.projectDesc}>
-                                    {project.description.length > 70 ? project.description.substring(0, 70) + '...' : project.description}
-                                </p>
+                                <p className={styles.projectDesc}>{project.description}</p>
                                 <p className={styles.projectTech}>
                                     <strong>Technologies:</strong> {project.technologies.slice(0, 3).join(', ')}
                                 </p>
