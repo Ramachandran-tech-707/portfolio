@@ -123,6 +123,7 @@
 /* ===== SECTIONS ===== */
 .section {
     margin-bottom: 0.25rem;
+    padding: 30px 0;
 }
 
 .sectionTitle {
@@ -373,6 +374,11 @@
 
 /* ===== PRINT STYLES ===== */
 @media print {
+    @page {
+        margin: 0.8cm;
+        size: A4 portrait;
+    }
+
     .resumeWrapper {
         background: #fff !important;
         padding: 0 !important;
@@ -389,19 +395,22 @@
         padding: 0 !important;
         max-width: 100% !important;
         margin: 0 !important;
+        line-height: 1.35 !important;
     }
 
-    .projectsGrid,
-    .ktSessionsGrid {
-        grid-template-columns: repeat(2, 1fr);
+    .name {
+        font-size: 2rem !important;
+        margin-bottom: 0.1rem !important;
     }
 
-    .projectItem {
-        break-inside: avoid;
+    .jobTitle {
+        font-size: 0.95rem !important;
+        margin-bottom: 0.4rem !important;
     }
 
-    .section {
-        break-inside: avoid;
+    .contactRow {
+        gap: 0.8rem !important;
+        font-size: 0.82rem !important;
     }
 
     .contactRow :global(a) {
@@ -409,19 +418,114 @@
         text-decoration: none !important;
     }
 
+    .divider {
+        margin: 0.4rem 0 !important;
+    }
+
+    .section {
+        margin-bottom: 0.3rem !important;
+        break-inside: auto !important;
+    }
+
     .sectionTitle {
+        font-size: 1rem !important;
+        margin-bottom: 0.2rem !important;
+        padding-bottom: 0.1rem !important;
         color: #1a202c !important;
         border-bottom-color: #6366f1 !important;
+    }
+
+    .summary {
+        font-size: 0.82rem !important;
+    }
+
+    .skillsGrid {
+        gap: 0.2rem 1rem !important;
+    }
+
+    .skillCategoryTitle {
+        font-size: 0.85rem !important;
+        margin-bottom: 0.1rem !important;
+    }
+
+    .skillList {
+        font-size: 0.8rem !important;
+    }
+
+    .experienceItem {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .expHeader {
+        margin-bottom: 0.2rem !important;
+    }
+
+    .expPosition {
+        font-size: 0.95rem !important;
+    }
+
+    .expCompany {
+        font-size: 0.82rem !important;
     }
 
     .expDuration {
         background: #eef2ff !important;
         color: #4f46e5 !important;
+        font-size: 0.86rem !important;
+        padding: 0.1rem 0.4rem !important;
+    }
+
+    .expList {
+        font-size: 0.82rem !important;
+    }
+
+    .expList li {
+        margin-bottom: 0.15rem !important;
+    }
+
+    .projectsGrid,
+    .ktSessionsGrid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0.5rem !important;
+    }
+
+    .projectItem {
+        padding: 0.5rem !important;
+        break-inside: auto !important;
+    }
+
+    .projectName {
+        font-size: 0.85rem !important;
     }
 
     .projectCategory {
         background: #eef2ff !important;
         color: #4f46e5 !important;
+        font-size: 0.75rem !important;
+        padding: 0.1rem 0.4rem !important;
+    }
+
+    .projectDesc {
+        font-size: 0.75rem !important;
+        margin-bottom: 0.1rem !important;
+    }
+
+    .projectTech {
+        font-size: 0.78rem !important;
+        margin-bottom: 0 !important;
+    }
+
+    .educationItem {
+        margin-bottom: 0.4rem !important;
+        break-inside: auto !important;
+    }
+
+    .eduDegree {
+        font-size: 0.88rem !important;
+    }
+
+    .eduDetails {
+        font-size: 0.82rem !important;
     }
 }
 

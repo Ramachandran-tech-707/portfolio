@@ -39,8 +39,8 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Professional Summary</h2>
                     <p className={styles.summary}>
-                        Senior Software Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations. 
-                        Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, and DeFi platforms using Next.js, Node.js, and Solidity. 
+                        Senior Software Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
+                        Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, and DeFi platforms using Next.js, Node.js, and Solidity.
                         Adept at leveraging AI to automate complex workflows and driving technical execution across high-impact projects.
                     </p>
                 </section>
@@ -85,11 +85,17 @@ export default function Resume() {
                             <span className={styles.expDuration}>2018 – Present (7+ Years)</span>
                         </div>
                         <ul className={styles.expList}>
-                            <li>Developed comprehensive Web3 wallet and DEX features using Next.js and React, incorporating HD wallet generation and multi-chain network support.</li>
-                            <li>Integrated secure smart contracts and EVM blockchain events utilizing Solidity, Ethers.js, and WalletConnect v2 bridging Web3 applications and users seamlessly.</li>
-                            <li>Architected a scalable cross-chain cryptocurrency payment gateway enabling decentralized and automated transaction tracking, validation, and settlement.</li>
-                            <li>Built complex AI-powered workflow automation pipelines using n8n and GPT integrations to drastically enhance team performance and scale robust business processes.</li>
-                            <li>Designed robust full-stack RESTful APIs and backend microservices leveraging Node.js and scalable MySQL/MongoDB architectures supporting high-throughput demands.</li>
+                            <li>Led end-to-end development of blockchain applications: NFT marketplaces, ICO/IEO platforms, and custom cryptocurrency payment gateways supporting multiple blockchains</li>
+                            <li>Built a MetaMask-like browser wallet extension (Chrome/Firefox) using Vite + React.js with full Web3 provider injection, HD wallet support, ERC-20/ERC-721 token management, and WalletConnect v2</li>
+                            <li>Implemented Universal Wallet Connector supporting MetaMask, WalletConnect (300+ wallets), Coinbase Wallet, Trust Wallet multi-chain session persistence</li>
+                            <li>Architected scalable e-commerce platforms with multi-vendor support, inventory management, and payment gateway integrations handling thousands of concurrent users</li>
+                            <li>Developed full-featured cryptocurrency exchange with real-time orderbook, WebSocket-driven trading engine, and advanced charting (limit, market, stop-loss orders)</li>
+                            <li>Integrated AI-powered automation using n8n workflows with Claude, ChatGPT, and Gemini AI, reducing manual business processes by 70%</li>
+                            <li>Built RESTful APIs and microservices using Node.js, Express.js, Laravel, and Python FastAPI</li>
+                            <li>Managed high-performance MongoDB and MySQL databases with query optimization for large-scale applications</li>
+                            <li>Implemented advanced web scraping solutions with anti-detection mechanisms for large-scale data extraction and normalization</li>
+                            <li>Deployed blockchain event listeners for real-time transaction notifications across EVM-compatible chains</li>
+                            <li>Maintained version control using Git, GitHub, and GitLab; basic hands-on with CI/CD workflows, Docker and Kubernetes</li>
                         </ul>
                     </div>
                 </section>
@@ -100,15 +106,17 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Selected Projects</h2>
                     <div className={styles.projectsGrid}>
-                        {projects.slice(0, 3).map((project) => (
+                        {[...projects].reverse().slice(0, 10).map((project) => (
                             <div key={project.id} className={styles.projectItem}>
                                 <div className={styles.projectHeader}>
                                     <h3 className={styles.projectName}>{project.title}</h3>
                                     <span className={styles.projectCategory}>{project.category}</span>
                                 </div>
-                                <p className={styles.projectDesc}>{project.description}</p>
+                                <p className={styles.projectDesc}>
+                                    {project.description.length > 70 ? project.description.substring(0, 70) + '...' : project.description}
+                                </p>
                                 <p className={styles.projectTech}>
-                                    <strong>Technologies:</strong> {project.technologies.join(', ')}
+                                    <strong>Technologies:</strong> {project.technologies.slice(0, 3).join(', ')}
                                 </p>
                             </div>
                         ))}
@@ -117,7 +125,7 @@ export default function Resume() {
 
                 <hr className={styles.divider} />
 
-                {/* EDUCATION */}
+                {/* EDUCATION & CERTIFICATIONS */}
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Education</h2>
                     {education.map((edu, index) => (
@@ -126,6 +134,10 @@ export default function Resume() {
                             <p className={styles.eduDetails}>{edu.institution} | {edu.duration}</p>
                         </div>
                     ))}
+                    <div className={styles.certList}>
+                        <h3 className={styles.certTitle}>Continuous Learning & Tools</h3>
+                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI and Bolt AI.</p>
+                    </div>
                 </section>
 
             </article>

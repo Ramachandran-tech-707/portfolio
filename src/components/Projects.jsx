@@ -11,8 +11,8 @@ export default function Projects() {
     const categories = ['All', 'Blockchain', 'E-commerce', 'AI & Automation', 'Web Scraping'];
 
     const filteredProjects = filter === 'All'
-        ? projects
-        : projects.filter(project => project.category === filter);
+        ? [...projects].reverse()
+        : [...projects].reverse().filter(project => project.category === filter);
 
     return (
         <section id="projects" className={styles.projects}>
