@@ -398,6 +398,11 @@
         line-height: 1.35 !important;
     }
 
+    .header {
+        padding-top: 1.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
     .name {
         font-size: 2rem !important;
         margin-bottom: 0.1rem !important;
@@ -423,14 +428,15 @@
     }
 
     .section {
+        margin-top: 0.5rem !important;
         margin-bottom: 0.3rem !important;
         break-inside: auto !important;
     }
 
     .sectionTitle {
         font-size: 1rem !important;
-        margin-bottom: 0.2rem !important;
-        padding-bottom: 0.1rem !important;
+        margin-bottom: 0.8rem !important;
+        padding-bottom: 0.35rem !important;
         color: #1a202c !important;
         border-bottom-color: #6366f1 !important;
     }
