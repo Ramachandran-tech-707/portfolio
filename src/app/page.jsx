@@ -6,6 +6,7 @@ import Services from '../components/Services'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import About from '@/components/About'
+import KTSessions from '../components/KTSessions'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Skills />
       <Projects />
+      <KTSessions />
       <Services />
       <Contact />
       <About />

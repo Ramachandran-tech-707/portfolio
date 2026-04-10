@@ -29,6 +29,7 @@ export default function Navigation() {
         { href: '#about', label: 'About' },
         { href: '#skills', label: 'Skills' },
         { href: '#projects', label: 'Projects' },
+        { href: '#knowledge-sharing', label: 'KT Sessions' },
         { href: '#services', label: 'Services' },
         { href: '#contact', label: 'Contact' }
     ];

@@ -1,6 +1,6 @@
 'use client';
 
-import { personalInfo, skills, projects, experience, education } from '../data/portfolio-data';
+import { personalInfo, skills, projects, experience, education, ktSessions } from '../data/portfolio-data';
 import styles from '../styles/Resume.module.css';
 
 export default function Resume() {
@@ -92,6 +92,26 @@ export default function Resume() {
                 </section>
 
                 <hr className={styles.divider} />
+ 
+                 {/* KNOWLEDGE TRANSFER & LEADERSHIP */}
+                 <section className={styles.section}>
+                     <h2 className={styles.sectionTitle}>Knowledge Transfer & Technical Leadership</h2>
+                     <div className={styles.ktSessionsGrid}>
+                         {ktSessions.map((session) => (
+                             <div key={session.id} className={styles.ktSessionItem}>
+                                 <h3 className={styles.ktSessionTitle}>{session.title}</h3>
+                                 <p className={styles.ktSessionDesc}>{session.description}</p>
+                                 <ul className={styles.ktTakeaways}>
+                                     {session.keyTakeaways.map((takeaway, i) => (
+                                         <li key={i}>{takeaway}</li>
+                                     ))}
+                                 </ul>
+                             </div>
+                         ))}
+                     </div>
+                 </section>
+ 
+                 <hr className={styles.divider} />
 
                 {/* KEY PROJECTS */}
                 <section className={styles.section}>

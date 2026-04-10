@@ -282,8 +282,108 @@ export const experience = [
             "Developed MetaMask-like Web3 wallet extension with multi-account support, secure key management, and DApp connectivity",
             "Built browser extension architecture for Chrome with Web3 provider injection",
             "Handled blockchain event listeners for real-time transaction notifications",
-            "Integrated WalletConnect and multi-chain wallet systems for DeFi and NFT platforms"
+            "Integrated WalletConnect and multi-chain wallet systems for DeFi and NFT platforms",
+            "Conducted and led technical Knowledge Transfer (KT) sessions for developers and cross-functional teams on topics including Advanced Next.js, AI Agents, n8n Automation, and Web3 concepts"
         ]
+    }
+];
+
+export const ktSessions = [
+    {
+        id: 1,
+        title: "Advanced Full-Stack Integration with Next.js and Express",
+        description: "Deep dive into architecting resilient full-stack applications by leveraging Next.js for high-performance frontend/SSR and Express for robust, scalable backend services.",
+        keyTakeaways: [
+            "Next.js vs Express: When to use which for specific features",
+            "Shared type definitions and API communication patterns",
+            "Optimization strategies for SEO and Core Web Vitals",
+            "Unified authentication and session management"
+        ],
+        icon: "🚀"
+    },
+    {
+        id: 2,
+        title: "AI-Powered Developers: The Future of Modern Developers",
+        description: "Exploring the paradigm shift in software development where AI tools like Cursor, GitHub Copilot, and Anti-Gravity are enhancing productivity and transforming the SDLC.",
+        keyTakeaways: [
+            "Leveraging AI for rapid prototyping and boilerplate reduction",
+            "Effective prompt engineering for code generation",
+            "AI-aided debugging and legacy code refactoring",
+            "Staying relevant as a developer in an AI-first world"
+        ],
+        icon: "🤖"
+    },
+    {
+        id: 3,
+        title: "LLM vs RAG vs AI Agents",
+        description: "Breaking down the core components of the modern AI stack: from base models (LLMs) to context-aware systems (RAG) and autonomous task-executing Agents.",
+        keyTakeaways: [
+            "Understanding Large Language Model (LLM) architectures",
+            "Implementation of Retrieval-Augmented Generation (RAG)",
+            "Building autonomous AI Agents for complex multi-step tasks",
+            "Ethical considerations and hallucination management"
+        ],
+        icon: "🧠"
+    },
+    {
+        id: 4,
+        title: "n8n: Automating workflow made easy",
+        description: "Practical guide to using n8n for building sophisticated, low-code automation workflows that connect various apps and AI services seamlessly.",
+        keyTakeaways: [
+            "Visual workflow building and node-based logic",
+            "Integrating AI APIs within automation pipelines",
+            "Webhook triggers and external service connections",
+            "Cost-effective automation deployment and scaling"
+        ],
+        icon: "⚡"
+    },
+    {
+        id: 5,
+        title: "ICO (Initial Coin Offering) Technical & Concept",
+        description: "Mastering the technical framework of ICOs, covering ERC-20 token creation, smart contract deployment, and the mechanics of decentralized fundraising.",
+        keyTakeaways: [
+            "Smart contract architecture for token sales",
+            "Security best practices and audit considerations",
+            "Tokenomics design and distribution mechanisms",
+            "Legal and compliance frameworks overview"
+        ],
+        icon: "🪙"
+    },
+    {
+        id: 6,
+        title: "IEO (Initial Exchange Offering) Concept & Process",
+        description: "Understanding the evolution from ICOs to IEOs, focusing on the role of centralized exchanges in providing liquidity, trust, and security for token launches.",
+        keyTakeaways: [
+            "Exchange-driven fundraising vs decentralized sales",
+            "User verification (KYC/AML) in IEO platforms",
+            "Launchpad integration and listing strategies",
+            "Success factors for IEO participation"
+        ],
+        icon: "📈"
+    },
+    {
+        id: 7,
+        title: "Understanding NFTs (Non-Fungible Tokens)",
+        description: "A comprehensive look at the future of digital assets, exploring the utility, standards (ERC-721/1155), and the integration of NFTs in Web3 ecosystems.",
+        keyTakeaways: [
+            "Beyond digital art: Utility and membership NFTs",
+            "Meta data management using IPFS and Arweave",
+            "Dynamic NFTs and programmatic assets",
+            "Developing NFT marketplaces and minting engines"
+        ],
+        icon: "🖼️"
+    },
+    {
+        id: 8,
+        title: "Crypto Payment Gateway Development",
+        description: "Architecting secure and scalable payment solutions for accepting cryptocurrencies, handling multiple chains, and automated transaction reconciliation.",
+        keyTakeaways: [
+            "Real-time transaction monitoring and callbacks",
+            "Multi-wallet and multi-chain support strategies",
+            "Security layers for key management and vaulting",
+            "Integrating with existing e-commerce systems"
+        ],
+        icon: "💳"
     }
 ];
 
