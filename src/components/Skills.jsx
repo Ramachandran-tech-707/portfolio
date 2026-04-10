@@ -99,6 +99,7 @@ function getCategoryIcon(category) {
         'Web Scraping': '🔍',
         'Version Control & Tools': '📦',
         '3rd Party APIs & Webhooks': '🌐',
+        'Visual Communication & Design Architecture': '📐',
     };
     return icons[category] || '💻';
 }

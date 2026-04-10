@@ -41,7 +41,8 @@ export default function Resume() {
                         Senior Software Developer with 7+ years of experience designing and delivering scalable web applications,
                         blockchain systems, and Web3 solutions. Proven expertise in full-stack development using Node.js, Next.js,
                         React, and Python. Deep specialization in cryptocurrency payment gateways, NFT platforms, DeFi integrations,
-                        crypto wallet development (MetaMask-like browser extensions), ICO/IEO platforms, and AI-powered automation.
+                        crypto wallet development (MetaMask-like browser extensions), ICO/IEO platforms, and AI-powered automation
+                        including AI presentations (Canva, Gamma AI) and architecture design (Whimsical AI).
                         Proficient in cloud-ready architectures, RESTful APIs, and multi-chain blockchain integrations.
                     </p>
                 </section>
@@ -150,7 +151,7 @@ export default function Resume() {
                     ))}
                     <div className={styles.certList}>
                         <h3 className={styles.certTitle}>Continuous Learning & Tools</h3>
-                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI and Bolt AI.</p>
+                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI, Bolt AI, and visual communication platforms like Whimsical AI and Gamma AI.</p>
                     </div>
                 </section>
 
@@ -167,6 +168,7 @@ export default function Resume() {
                         <li>API Design, Development & Third-Party Integration</li>
                         <li>Database Architecture & Optimization (MySQL, MongoDB, PostgreSQL)</li>
                         <li>AI-Powered Workflow Automation (n8n, Claude, GPT, Gemini, Anti-gravity, VsCode Github Copilot)</li>
+                        <li>AI Presentations & Architectural Design (Canva, Gamma AI, Whimsical AI, Draw.io)</li>
                         <li>E-commerce Platform Development</li>
                         <li>Agile Development & Version Control (Git, GitHub, GitLab)</li>
                         <li>Web Scraping, Data Extraction & Processing</li>

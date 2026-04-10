@@ -56,7 +56,18 @@ export const skills = {
         "Replit",
         "Github Copilot",
         "VsCode AI Tools",
-        "Anti-Gravity"
+        "Anti-Gravity",
+        "Canva",
+        "GenSpark AI",
+        "Slidea AI",
+        "Gamma AI"
+    ],
+    "Visual Communication & Design Architecture": [
+        "Draw.io",
+        "Whimsical AI",
+        "Workflow diagrams",
+        "Flowcharts",
+        "Mind maps"
     ],
     "Web Scraping": [
         "Data Extraction",
@@ -283,7 +294,8 @@ export const experience = [
             "Built browser extension architecture for Chrome with Web3 provider injection",
             "Handled blockchain event listeners for real-time transaction notifications",
             "Integrated WalletConnect and multi-chain wallet systems for DeFi and NFT platforms",
-            "Conducted and led technical Knowledge Transfer (KT) sessions for developers and cross-functional teams on topics including Advanced Next.js, AI Agents, n8n Automation, and Web3 concepts"
+            "Conducted and led technical Knowledge Transfer (KT) sessions for developers and cross-functional teams on topics including Advanced Next.js, AI Agents, n8n Automation, and Web3 concepts",
+            "Designed AI-powered presentations (Canva, GenSpark AI, Gamma AI) and architectural diagrams (Whimsical AI, Draw.io) to bridge communication between technical teams and clients"
         ]
     }
 ];
