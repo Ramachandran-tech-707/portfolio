@@ -1,6 +1,6 @@
 'use client';
 
-import { personalInfo, skills, projects, experience, education, ktSessions } from '../data/portfolio-data';
+import { personalInfo, projects, experience, education } from '../data/portfolio-data';
 import styles from '../styles/Resume.module.css';
 
 export default function Resume() {
@@ -29,6 +29,7 @@ export default function Resume() {
                         <span>📧 <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a></span>
                         <span>🔗 <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">linkedin.com/in/chandru707</a></span>
                         <span>💻 <a href={personalInfo.github} target="_blank" rel="noopener noreferrer">github.com/Ramachandran-tech-707</a></span>
+                        <span>🌐 <a href="https://github.com/Ramachandran-tech-707/portfolio" target="_blank" rel="noopener noreferrer">Portfolio Link</a></span>
                     </div>
                 </header>
 
@@ -38,27 +39,34 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Professional Summary</h2>
                     <p className={styles.summary}>
-                        Senior Software Developer with 7+ years of experience designing and delivering scalable web applications,
-                        blockchain systems, and Web3 solutions. Proven expertise in full-stack development using Node.js, Next.js,
-                        React, and Python. Deep specialization in cryptocurrency payment gateways, NFT platforms, DeFi integrations,
-                        crypto wallet development (MetaMask-like browser extensions), ICO/IEO platforms, and AI-powered automation
-                        including AI presentations (Canva, Gamma AI) and architecture design (Whimsical AI).
-                        Proficient in cloud-ready architectures, RESTful APIs, and multi-chain blockchain integrations.
+                        Senior Software Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations. 
+                        Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, and DeFi platforms using Next.js, Node.js, and Solidity. 
+                        Adept at leveraging AI to automate complex workflows and driving technical execution across high-impact projects.
                     </p>
                 </section>
 
                 <hr className={styles.divider} />
 
-                {/* SKILLS */}
+                {/* SKILLS & TECHNOLOGIES */}
                 <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>Technical Skills</h2>
+                    <h2 className={styles.sectionTitle}>Skills & Technologies</h2>
                     <div className={styles.skillsGrid}>
-                        {Object.entries(skills).map(([category, skillList]) => (
-                            <div key={category} className={styles.skillCategory}>
-                                <h3 className={styles.skillCategoryTitle}>{category}</h3>
-                                <p className={styles.skillList}>{skillList.join(' • ')}</p>
-                            </div>
-                        ))}
+                        <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>Languages & Frameworks</h3>
+                            <p className={styles.skillList}>JavaScript, TypeScript, Next.js, React.js, Node.js, Express.js, Python (FastAPI), HTML/CSS</p>
+                        </div>
+                        <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>Web3 & Blockchain</h3>
+                            <p className={styles.skillList}>Solidity, Ethers.js, Web3.js, WalletConnect v2, Smart Contracts, Crypto Wallets, DeFi, DEX, NFT Platforms</p>
+                        </div>
+                        <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>AI & Automation</h3>
+                            <p className={styles.skillList}>n8n, ChatGPT/GPT Models, Claude, Gemini, Cursor AI, Agentic Workflows</p>
+                        </div>
+                        <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>Databases & Tools</h3>
+                            <p className={styles.skillList}>MongoDB, MySQL, PostgreSQL, Git, REST APIs, Microservices Architecture</p>
+                        </div>
                     </div>
                 </section>
 
@@ -77,48 +85,22 @@ export default function Resume() {
                             <span className={styles.expDuration}>2018 – Present (7+ Years)</span>
                         </div>
                         <ul className={styles.expList}>
-                            <li>Led end-to-end development of blockchain applications: NFT marketplaces, ICO/IEO platforms, and custom cryptocurrency payment gateways supporting multiple blockchains</li>
-                            <li>Built a MetaMask-like browser wallet extension (Chrome/Firefox) using Vite + React.js with full Web3 provider injection, HD wallet support, ERC-20/ERC-721 token management, and WalletConnect v2</li>
-                            <li>Implemented Universal Wallet Connector supporting MetaMask, WalletConnect (300+ wallets), Coinbase Wallet, Trust Wallet multi-chain session persistence</li>
-                            <li>Architected scalable e-commerce platforms with multi-vendor support, inventory management, and payment gateway integrations handling thousands of concurrent users</li>
-                            <li>Developed full-featured cryptocurrency exchange with real-time orderbook, WebSocket-driven trading engine, and advanced charting (limit, market, stop-loss orders)</li>
-                            <li>Integrated AI-powered automation using n8n workflows with Claude, ChatGPT, and Gemini AI, reducing manual business processes by 70%</li>
-                            <li>Built RESTful APIs and microservices using Node.js, Express.js, Laravel, and Python FastAPI</li>
-                            <li>Managed high-performance MongoDB and MySQL databases with query optimization for large-scale applications</li>
-                            <li>Implemented advanced web scraping solutions with anti-detection mechanisms for large-scale data extraction and normalization</li>
-                            <li>Deployed blockchain event listeners for real-time transaction notifications across EVM-compatible chains</li>
-                            <li>Maintained version control using Git, GitHub, and GitLab; basic hands-on with CI/CD workflows, Docker and Kubernetes</li>
+                            <li>Developed comprehensive Web3 wallet and DEX features using Next.js and React, incorporating HD wallet generation and multi-chain network support.</li>
+                            <li>Integrated secure smart contracts and EVM blockchain events utilizing Solidity, Ethers.js, and WalletConnect v2 bridging Web3 applications and users seamlessly.</li>
+                            <li>Architected a scalable cross-chain cryptocurrency payment gateway enabling decentralized and automated transaction tracking, validation, and settlement.</li>
+                            <li>Built complex AI-powered workflow automation pipelines using n8n and GPT integrations to drastically enhance team performance and scale robust business processes.</li>
+                            <li>Designed robust full-stack RESTful APIs and backend microservices leveraging Node.js and scalable MySQL/MongoDB architectures supporting high-throughput demands.</li>
                         </ul>
                     </div>
                 </section>
 
                 <hr className={styles.divider} />
- 
-                 {/* KNOWLEDGE TRANSFER & LEADERSHIP */}
-                 <section className={styles.section}>
-                     <h2 className={styles.sectionTitle}>Knowledge Transfer & Technical Leadership</h2>
-                     <div className={styles.ktSessionsGrid}>
-                         {ktSessions.map((session) => (
-                             <div key={session.id} className={styles.ktSessionItem}>
-                                 <h3 className={styles.ktSessionTitle}>{session.title}</h3>
-                                 <p className={styles.ktSessionDesc}>{session.description}</p>
-                                 <ul className={styles.ktTakeaways}>
-                                     {session.keyTakeaways.map((takeaway, i) => (
-                                         <li key={i}>{takeaway}</li>
-                                     ))}
-                                 </ul>
-                             </div>
-                         ))}
-                     </div>
-                 </section>
- 
-                 <hr className={styles.divider} />
 
                 {/* KEY PROJECTS */}
                 <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>Key Projects</h2>
+                    <h2 className={styles.sectionTitle}>Selected Projects</h2>
                     <div className={styles.projectsGrid}>
-                        {projects.map((project) => (
+                        {projects.slice(0, 3).map((project) => (
                             <div key={project.id} className={styles.projectItem}>
                                 <div className={styles.projectHeader}>
                                     <h3 className={styles.projectName}>{project.title}</h3>
@@ -128,11 +110,6 @@ export default function Resume() {
                                 <p className={styles.projectTech}>
                                     <strong>Technologies:</strong> {project.technologies.join(', ')}
                                 </p>
-                                <ul className={styles.projectHighlights}>
-                                    {project.highlights.map((h, i) => (
-                                        <li key={i}>{h}</li>
-                                    ))}
-                                </ul>
                             </div>
                         ))}
                     </div>
@@ -140,7 +117,7 @@ export default function Resume() {
 
                 <hr className={styles.divider} />
 
-                {/* EDUCATION & CERTIFICATIONS */}
+                {/* EDUCATION */}
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Education</h2>
                     {education.map((edu, index) => (
@@ -149,30 +126,6 @@ export default function Resume() {
                             <p className={styles.eduDetails}>{edu.institution} | {edu.duration}</p>
                         </div>
                     ))}
-                    <div className={styles.certList}>
-                        <h3 className={styles.certTitle}>Continuous Learning & Tools</h3>
-                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI, Bolt AI, and visual communication platforms like Whimsical AI and Gamma AI.</p>
-                    </div>
-                </section>
-
-                <hr className={styles.divider} />
-
-                {/* CORE COMPETENCIES */}
-                <section className={styles.section}>
-                    <h2 className={styles.sectionTitle}>Core Competencies</h2>
-                    <ul className={styles.competenciesList}>
-                        <li>Full Stack Web Development (Node.js, Next.js, React, Express.js, PHP/Laravel)</li>
-                        <li>Blockchain & DeFi Application Development</li>
-                        <li>Web3 Wallet & Browser Extension Development</li>
-                        <li>Smart Contract Integration (Ethereum, EVM chains)</li>
-                        <li>API Design, Development & Third-Party Integration</li>
-                        <li>Database Architecture & Optimization (MySQL, MongoDB, PostgreSQL)</li>
-                        <li>AI-Powered Workflow Automation (n8n, Claude, GPT, Gemini, Anti-gravity, VsCode Github Copilot)</li>
-                        <li>AI Presentations & Architectural Design (Canva, Gamma AI, Whimsical AI, Draw.io)</li>
-                        <li>E-commerce Platform Development</li>
-                        <li>Agile Development & Version Control (Git, GitHub, GitLab)</li>
-                        <li>Web Scraping, Data Extraction & Processing</li>
-                    </ul>
                 </section>
 
             </article>
