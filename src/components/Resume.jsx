@@ -39,7 +39,7 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Professional Summary</h2>
                     <p className={styles.summary}>
-                        Senior Software Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
+                        Senior Full Stack Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
                         Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, and DeFi platforms using Next.js, Node.js, and Solidity.
                         Adept at leveraging AI to automate complex workflows and driving technical execution across high-impact projects.
                     </p>
