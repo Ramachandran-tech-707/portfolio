@@ -97,14 +97,14 @@ export default function Resume() {
                     <div className={styles.skillsGrid}>
                         <div className={styles.skillCategory}>
                             <h3 className={styles.skillCategoryTitle}>Languages & Frameworks</h3>
-                            <p className={styles.skillList}>JavaScript, TypeScript, Next.js, React.js, Node.js, Express.js, Python (FastAPI), HTML/CSS</p>
+                            <p className={styles.skillList}>Next.js, React.js, Node.js, Express.js, JavaScript, TypeScript, Python (FastAPI), HTML/CSS</p>
                         </div>
                         <div className={styles.skillCategory}>
                             <h3 className={styles.skillCategoryTitle}>Web3 & Blockchain</h3>
                             <p className={styles.skillList}>Solidity, Ethers.js, Web3.js, WalletConnect v2, Smart Contracts, Crypto Wallets, DeFi, DEX, NFT Platforms</p>
                         </div>
                         <div className={styles.skillCategory}>
-                            <h3 className={styles.skillCategoryTitle}>AI & Automation</h3>
+                            <h3 className={styles.skillCategoryTitle}>AI Tools & Automation</h3>
                             <p className={styles.skillList}>n8n, ChatGPT/GPT Models, Claude, Gemini, Cursor AI, Agentic Workflows</p>
                         </div>
                         <div className={styles.skillCategory}>
