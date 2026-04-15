@@ -66,7 +66,7 @@
     background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.12);
-    padding: 3rem 3.5rem;
+    padding: 2.5rem 2.8rem;
     color: #1a202c;
     line-height: 1.65;
 }
@@ -123,7 +123,7 @@
 /* ===== SECTIONS ===== */
 .section {
     margin-bottom: 0.25rem;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 .sectionTitle {
@@ -375,7 +375,7 @@
 /* ===== PRINT STYLES ===== */
 @media print {
     @page {
-        margin: 0.8cm;
+        margin: 0.55cm;
         size: A4 portrait;
     }
 
@@ -395,12 +395,12 @@
         padding: 0 !important;
         max-width: 100% !important;
         margin: 0 !important;
-        line-height: 1.35 !important;
+        line-height: 1.28 !important;
     }
 
     .header {
-        padding-top: 1.5rem !important;
-        margin-bottom: 0.5rem !important;
+        padding-top: 0.85rem !important;
+        margin-bottom: 0.3rem !important;
     }
 
     .name {
@@ -424,13 +424,13 @@
     }
 
     .divider {
-        margin: 0.3rem 0 !important;
+        margin: 0.2rem 0 !important;
     }
 
     .section {
-        margin-top: 0.3rem !important;
-        margin-bottom: 0.2rem !important;
-        padding: 20px !important;
+        margin-top: 0.2rem !important;
+        margin-bottom: 0.1rem !important;
+        padding: 12px !important;
         break-inside: auto !important;
     }
 

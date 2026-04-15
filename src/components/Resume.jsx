@@ -3,6 +3,49 @@
 import { personalInfo, projects, experience, education } from '../data/portfolio-data';
 import styles from '../styles/Resume.module.css';
 
+
+const workExperience = [
+    {
+        position: "Senior Full Stack Developer",
+        company: "Pixel Web Solutions",
+        duration: "Sep 2021 - Present",
+        subtitle: "Current Role | Full-time",
+        responsibilities: [
+            "Led end-to-end development of blockchain applications including NFT marketplaces, ICO/IEO platforms, and custom cryptocurrency payment gateways supporting multiple blockchains",
+            "Built a MetaMask-like browser wallet extension (Chrome/Firefox) using Vite and React.js with Web3 provider injection, HD wallet support, ERC-20 and ERC-721 token management, and WalletConnect v2 integration",
+            "Implemented a universal wallet connector supporting MetaMask, WalletConnect (300+ wallets), Coinbase Wallet, and Trust Wallet with multi-chain session persistence",
+            "Architected scalable e-commerce platforms with multi-vendor support, inventory management, and payment gateway integrations handling thousands of concurrent users",
+            "Developed a full-featured cryptocurrency exchange with real-time order book, WebSocket-driven trading engine, and advanced charting including limit, market, and stop-loss orders",
+            "Integrated AI-powered automation workflows using n8n with Claude, ChatGPT, and Gemini AI, reducing manual business processes by 70%",
+            "Built and maintained RESTful APIs and microservices using Node.js, Express.js, Laravel, and Python FastAPI",
+            "Deployed blockchain event listeners for real-time transaction notifications across EVM-compatible chains",
+            "Maintained version control using Git, GitHub, and GitLab, with hands-on experience in CI/CD workflows, Docker, and Kubernetes",
+        ]
+    },
+    {
+        position: "Senior Software Developer",
+        company: "DivInfosys",
+        duration: "Dec 2018 - Aug 2021",
+        subtitle: "Web Scraping, Product Management & E-commerce Automation",
+        responsibilities: [
+            "Built Core PHP-based web scraping solutions for Amazon and other e-commerce sites to collect and normalize bulk product data.",
+            "Developed management applications for scraped records, reporting, and data tracking using HTML, CSS, Core PHP, jQuery, and MongoDB.",
+            "Improved data handling workflows for inventory, product analysis, and reusable business reports."
+        ]
+    },
+    {
+        position: "Web Developer",
+        company: "SidInfotech",
+        duration: "May 2018 - Nov 2018",
+        subtitle: "E-commerce Applications & WordPress Development",
+        responsibilities: [
+            "Created e-commerce application features with HTML, CSS, Core PHP, and WordPress.",
+            "Implemented scalable front-end and back-end updates for business websites and product-driven portals.",
+            "Supported responsive layouts, content updates, and day-to-day development tasks for live projects."
+        ]
+    }
+];
+
 export default function Resume() {
     const handlePrint = () => {
         window.print();
@@ -76,29 +119,22 @@ export default function Resume() {
                 {/* PROFESSIONAL EXPERIENCE */}
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Professional Experience</h2>
-
-                    <div className={styles.experienceItem}>
-                        <div className={styles.expHeader}>
-                            <div>
-                                <h3 className={styles.expPosition}>Senior Full Stack Developer</h3>
-                                <p className={styles.expCompany}>Software Development • Hybrid / Remote • Full-Time</p>
+                    {workExperience.map((job) => (
+                        <div key={`${job.company}-${job.duration}`} className={styles.experienceItem}>
+                            <div className={styles.expHeader}>
+                                <div>
+                                    <h3 className={styles.expPosition}>{job.position}</h3>
+                                    <p className={styles.expCompany}>{job.company} | {job.subtitle}</p>
+                                </div>
+                                <span className={styles.expDuration}>{job.duration}</span>
                             </div>
-                            <span className={styles.expDuration}>2018 – Present (7+ Years)</span>
+                            <ul className={styles.expList}>
+                                {job.responsibilities.map((item) => (
+                                    <li key={item}>{item}</li>
+                                ))}
+                            </ul>
                         </div>
-                        <ul className={styles.expList}>
-                            <li>Led end-to-end development of blockchain applications: NFT marketplaces, ICO/IEO platforms, and custom cryptocurrency payment gateways supporting multiple blockchains</li>
-                            <li>Built a MetaMask-like browser wallet extension (Chrome/Firefox) using Vite + React.js with full Web3 provider injection, HD wallet support, ERC-20/ERC-721 token management, and WalletConnect v2</li>
-                            <li>Implemented Universal Wallet Connector supporting MetaMask, WalletConnect (300+ wallets), Coinbase Wallet, Trust Wallet multi-chain session persistence</li>
-                            <li>Architected scalable e-commerce platforms with multi-vendor support, inventory management, and payment gateway integrations handling thousands of concurrent users</li>
-                            <li>Developed full-featured cryptocurrency exchange with real-time orderbook, WebSocket-driven trading engine, and advanced charting (limit, market, stop-loss orders)</li>
-                            <li>Integrated AI-powered automation using n8n workflows with Claude, ChatGPT, and Gemini AI, reducing manual business processes by 70%</li>
-                            <li>Built RESTful APIs and microservices using Node.js, Express.js, Laravel, and Python FastAPI</li>
-                            <li>Managed high-performance MongoDB and MySQL databases with query optimization for large-scale applications</li>
-                            <li>Implemented advanced web scraping solutions with anti-detection mechanisms for large-scale data extraction and normalization</li>
-                            <li>Deployed blockchain event listeners for real-time transaction notifications across EVM-compatible chains</li>
-                            <li>Maintained version control using Git, GitHub, and GitLab; basic hands-on with CI/CD workflows, Docker and Kubernetes</li>
-                        </ul>
-                    </div>
+                    ))}
                 </section>
 
                 <hr className={styles.divider} />
