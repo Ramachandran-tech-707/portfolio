@@ -2,6 +2,7 @@ export const personalInfo = {
     name: "Senior Software Developer",
     title: "Full Stack Developer | Blockchain & Web3 Specialist",
     experience: "7+ Years",
+    phone: "+91 9524924607",
     email: "chandrur707@gmail.com",
     github: "https://github.com/Ramachandran-tech-707",
     linkedin: "https://linkedin.com/in/chandru707",
