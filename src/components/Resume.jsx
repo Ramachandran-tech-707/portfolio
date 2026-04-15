@@ -169,6 +169,9 @@ export default function Resume() {
                             <p className={styles.eduDetails}>{edu.institution} | {edu.duration}</p>
                         </div>
                     ))}
+
+                    <hr className={styles.divider} />
+                    
                     <div className={styles.certList}>
                         <h3 className={styles.certTitle}>Continuous Learning & Tools</h3>
                         <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI and Bolt AI.</p>
