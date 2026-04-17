@@ -71,7 +71,7 @@ export default function Resume() {
                     <div className={styles.contactRow}>
                         <span>📞 <a href={`tel:${personalInfo.phone}`}>{personalInfo.phone}</a></span>
                         <span>📧 <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a></span>
-                        <span>🔗 <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">linkedin.com/in/chandru707</a></span>
+                        <span>🔗 <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">linkedin.com/in/chandrur707</a></span>
                         <span>💻 <a href={personalInfo.github} target="_blank" rel="noopener noreferrer">github.com/Ramachandran-tech-707</a></span>
                         <span>🌐 <a href="https://ramachandran-t-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">ramachandran-t-portfolio.vercel.app</a></span>
                     </div>
