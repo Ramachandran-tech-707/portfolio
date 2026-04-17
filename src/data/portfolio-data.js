@@ -5,7 +5,7 @@ export const personalInfo = {
     phone: "+91 9524924607",
     email: "chandrur707@gmail.com",
     github: "https://github.com/Ramachandran-tech-707",
-    linkedin: "https://linkedin.com/in/chandru707",
+    linkedin: "https://linkedin.com/in/chandrur707",
     description: "Passionate Senior Software Developer with 7+ years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
 };
 
