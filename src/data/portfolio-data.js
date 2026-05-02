@@ -6,7 +6,7 @@ export const personalInfo = {
     email: "chandrur707@gmail.com",
     github: "https://github.com/Ramachandran-tech-707",
     linkedin: "https://linkedin.com/in/chandrur707",
-    description: "Passionate Senior Software Developer with 7+ years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
+    description: "Passionate Senior Full Stack Developer with 7+ years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
 };
 
 export const skills = {
@@ -114,7 +114,7 @@ export const projects = [
         title: "Custom Crypto Payment Gateway",
         category: "Blockchain",
         description: "Developed a secure and scalable cryptocurrency payment gateway supporting multiple blockchain networks. Features include real-time transaction monitoring, multi-wallet support, and automated payment processing.",
-        technologies: ["Node.js", "Express.js", "MySQL", "Blockchain APIs"],
+        technologies: ["Laravel", "Node.js", "Express.js", "MySQL", "Blockchain APIs"],
         highlights: [
             "Multi-currency support",
             "Real-time transaction tracking",
@@ -127,7 +127,7 @@ export const projects = [
         title: "NFT Marketplace Application",
         category: "Blockchain",
         description: "Built a complete NFT marketplace with minting, buying, selling, and auction features. Integrated with major blockchain networks and IPFS for decentralized storage.",
-        technologies: ["Next.js", "Node.js", "MySQL", "Smart Contracts"],
+        technologies: ["Next.js", "Express.js", "Node.js", "MySQL", "Smart Contracts"],
         highlights: [
             "NFT minting & trading",
             "Auction system",
@@ -140,7 +140,7 @@ export const projects = [
         title: "ICO/IEO Platform",
         category: "Blockchain",
         description: "Comprehensive platform for Initial Coin Offerings and Initial Exchange Offerings with KYC integration, smart contract deployment, and token distribution mechanisms.",
-        technologies: ["Next.js", "Node.js", "MySQL", "Smart Contracts"],
+        technologies: ["Next.js", "Express.js", "Node.js", "MySQL", "Smart Contracts"],
         highlights: [
             "KYC/AML integration",
             "Token sale management",
@@ -166,7 +166,7 @@ export const projects = [
         title: "Enterprise E-commerce Platform",
         category: "E-commerce",
         description: "Scalable e-commerce solution with inventory management, payment gateway integration, and advanced analytics. Handles thousands of products and concurrent users.",
-        technologies: ["Laravel", "Node.js", "Mongo DB", "Payment APIs"],
+        technologies: ["Laravel", "Node.js", "Express.js", "Mongo DB", "Payment APIs"],
         highlights: [
             "Multi-vendor support",
             "Inventory management",
@@ -205,7 +205,14 @@ export const projects = [
         title: "Web Scraping & Data Platform",
         category: "Web Scraping",
         description: "Advanced web scraping solution for extracting and processing large-scale data from multiple sources. Features anti-detection mechanisms and intelligent data parsing.",
-        technologies: ["Node.js", "PHP", "JAVASCRIPT", "MongoDB", "REST API"],
+        technologies: [
+            "PHP (cURL, Guzzle)",
+            "Selenium / Headless Browser Automation",
+            "JavaScript",
+            "MongoDB",
+            "REST API",
+            "Proxy & Anti-Detection Systems"
+        ],
         highlights: [
             "Large-scale scraping",
             "Anti-detection",
@@ -278,7 +285,7 @@ export const projects = [
 export const experience = [
     {
         id: 1,
-        position: "Senior Software Developer",
+        position: "Senior Full Stack Developer",
         company: "Current Position",
         duration: "7+ Years Total Experience",
         responsibilities: [

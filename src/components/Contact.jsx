@@ -85,7 +85,7 @@ export default function Contact() {
                                 <div className={styles.infoIcon}>📍</div>
                                 <div>
                                     <h4>Location</h4>
-                                    <p>Available for Remote Work</p>
+                                    <p>Chennai · Bangalore · Available for Hybrid & Remote Work</p>
                                 </div>
                             </div>
                         </div>

@@ -7,9 +7,9 @@ export default function Services() {
     return (
         <section id="services" className={styles.services}>
             <div className="container">
-                <h2 className="section-title fade-in">Services Offered</h2>
+                <h2 className="section-title fade-in">Scalable Solutions I Design & Deliver</h2>
                 <p className="section-subtitle fade-in delay-1">
-                    Comprehensive development solutions tailored to your business needs
+                    End-to-end product engineering across Full Stack, Web3, and AI — built for scale, performance, and real-world impact.
                 </p>
 
                 <div className={styles.servicesGrid}>
@@ -40,7 +40,7 @@ export default function Services() {
                     ))}
                 </div>
 
-                <div className={`${styles.ctaSection} fade-in delay-3`}>
+                {/* <div className={`${styles.ctaSection} fade-in delay-3`}>
                     <h3 className={styles.ctaTitle}>Ready to Start Your Project?</h3>
                     <p className={styles.ctaText}>
                         Let's collaborate and bring your ideas to life with cutting-edge technology
@@ -53,7 +53,7 @@ export default function Services() {
                             View Portfolio
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );

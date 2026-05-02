@@ -126,7 +126,7 @@ export default function Hero() {
                             <div className={styles.codeLine} style={{ paddingLeft: '20px' }}>
                                 <span className={styles.property}>name</span>
                                 <span className={styles.operator}>: </span>
-                                <span className={styles.string}>'Senior Developer'</span>
+                                <span className={styles.string}>'Senior Full Stack Developer'</span>
                                 <span className={styles.punctuation}>,</span>
                             </div>
                             <div className={styles.codeLine} style={{ paddingLeft: '20px' }}>
