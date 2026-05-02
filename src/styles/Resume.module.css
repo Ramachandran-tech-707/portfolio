@@ -1,639 +1,655 @@
 /* ===== RESUME WRAPPER (screen layout) ===== */
 .resumeWrapper {
-  min-height: 100vh;
-  background: #f8fafc;
-  padding: 2rem 1rem 4rem;
-  font-family: "Georgia", "Times New Roman", serif;
+    min-height: 100vh;
+    background: #f8fafc;
+    padding: 2rem 1rem 4rem;
+    font-family: 'Georgia', 'Times New Roman', serif;
 }
 
 /* ===== ACTION BAR (screen only) ===== */
 .actionBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 900px;
-  margin: 0 auto 1.5rem;
-  gap: 1rem;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .backBtn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.6rem 1.2rem;
-  background: #1e293b;
-  color: #a5b4fc;
-  text-decoration: none;
-  border-radius: 8px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition:
-    background 0.2s,
-    color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.2rem;
+    background: #1e293b;
+    color: #a5b4fc;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
 }
 
 .backBtn:hover {
-  background: #334155;
-  color: #c7d2fe;
+    background: #334155;
+    color: #c7d2fe;
 }
 
 .printBtn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.65rem 1.4rem;
-  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.4rem;
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .printBtn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.45);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.45);
 }
 
 /* ===== RESUME DOCUMENT ===== */
 .resume {
-  max-width: 900px;
-  margin: 0 auto;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.12);
-  padding: 2.5rem 2.8rem;
-  color: #1a202c;
-  line-height: 1.65;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.12);
+    padding: 2.5rem 2.8rem;
+    color: #1a202c;
+    line-height: 1.65;
 }
 
 /* ===== HEADER ===== */
 .header {
-  text-align: center;
-  margin-bottom: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
 
 .name {
-  font-size: 2.4rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #1a202c;
-  margin-bottom: 0.25rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #1a202c;
+    margin-bottom: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .jobTitle {
-  font-size: 1.05rem;
-  color: #4f46e5;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1.05rem;
+    color: #4f46e5;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .contactRow {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.2rem;
-  font-size: 0.88rem;
-  color: #374151;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    font-size: 0.88rem;
+    color: #374151;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .contactRow a {
-  color: #4f46e5;
-  text-decoration: none;
+    color: #4f46e5;
+    text-decoration: none;
 }
 
 .contactRow a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* ===== DIVIDER ===== */
 .divider {
-  border: none;
-  border-top: 2px solid #e2e8f0;
-  margin: 1.25rem 0;
+    border: none;
+    border-top: 2px solid #e2e8f0;
+    margin: 1.25rem 0;
 }
 
 /* ===== SECTIONS ===== */
 .section {
-  margin-bottom: 0.25rem;
-  padding: 15px 0;
+    margin-bottom: 0.25rem;
+    padding: 15px 0;
 }
 
 .sectionTitle {
-  font-size: 1.1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #1a202c;
-  margin-bottom: 0.8rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid #6366f1;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1a202c;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #6366f1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 /* ===== SUMMARY ===== */
 .summary {
-  font-size: 0.95rem;
-  color: #374151;
-  line-height: 1.7;
+    font-size: 0.95rem;
+    color: #374151;
+    line-height: 1.7;
 }
 
 /* ===== SKILLS ===== */
 .skillsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 0.6rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.6rem 1.5rem;
 }
 
 .skillCategory {
-  margin-bottom: 0.4rem;
+    margin-bottom: 0.4rem;
 }
 
 .skillCategoryTitle {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin-bottom: 0.15rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 0.15rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .skillList {
-  font-size: 0.87rem;
-  color: #4b5563;
-  line-height: 1.5;
+    font-size: 0.87rem;
+    color: #4b5563;
+    line-height: 1.5;
 }
 
 /* ===== EXPERIENCE ===== */
 .experienceItem {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .expHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 
 .expPosition {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #1a202c;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a202c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .expCompany {
-  font-size: 0.9rem;
-  color: #6b7280;
-  font-style: italic;
-  margin-top: 0.1rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 0.1rem;
 }
 
 .expDuration {
-  font-size: 0.87rem;
-  color: #4f46e5;
-  font-weight: 600;
-  white-space: nowrap;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #eef2ff;
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
+    font-size: 0.87rem;
+    color: #4f46e5;
+    font-weight: 600;
+    white-space: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #eef2ff;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
 }
 
 .expList {
-  list-style: disc;
-  padding-left: 1.4rem;
-  font-size: 0.9rem;
-  color: #374151;
-  line-height: 1.65;
+    list-style: disc;
+    padding-left: 1.4rem;
+    font-size: 0.9rem;
+    color: #374151;
+    line-height: 1.65;
 }
 
 .expList li {
-  margin-bottom: 0.35rem;
-}
-
-/* ===== KT SESSIONS ===== */
-.ktSessionsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 1rem;
-}
-
-.ktSessionItem {
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 1rem 1.2rem;
-  break-inside: avoid;
-}
-
-.ktSessionTitle {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin-bottom: 0.4rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
-.ktSessionDesc {
-  font-size: 0.85rem;
-  color: #4b5563;
-  line-height: 1.55;
-  margin-bottom: 0.4rem;
-}
-
-.ktTakeaways {
-  list-style: disc;
-  padding-left: 1.3rem;
-  font-size: 0.83rem;
-  color: #4b5563;
-}
-
-.ktTakeaways li {
-  margin-bottom: 0.2rem;
+    margin-bottom: 0.35rem;
 }
 
 /* ===== PROJECTS ===== */
 .projectsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 1rem;
 }
 
 .projectItem {
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 1rem 1.2rem;
-  break-inside: avoid;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    break-inside: avoid;
 }
 
 .projectHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-  margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.4rem;
 }
 
 .projectName {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1a202c;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a202c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .projectCategory {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #4f46e5;
-  background: #eef2ff;
-  border-radius: 4px;
-  padding: 0.15rem 0.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #4f46e5;
+    background: #eef2ff;
+    border-radius: 4px;
+    padding: 0.15rem 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .projectDesc {
-  font-size: 0.85rem;
-  color: #4b5563;
-  line-height: 1.55;
-  margin-bottom: 0.4rem;
+    font-size: 0.85rem;
+    color: #4b5563;
+    line-height: 1.55;
+    margin-bottom: 0.4rem;
 }
 
 .projectTech {
-  font-size: 0.83rem;
-  color: #374151;
-  margin-bottom: 0.35rem;
+    font-size: 0.83rem;
+    color: #374151;
+    margin-bottom: 0.35rem;
 }
 
 .projectHighlights {
-  list-style: disc;
-  padding-left: 1.3rem;
-  font-size: 0.83rem;
-  color: #4b5563;
+    list-style: disc;
+    padding-left: 1.3rem;
+    font-size: 0.83rem;
+    color: #4b5563;
 }
 
 .projectHighlights li {
-  margin-bottom: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+/* ===== KT SESSIONS ===== */
+.ktSessionsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 1rem;
+}
+
+.ktSessionItem {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    break-inside: avoid;
+}
+
+.ktSessionTitle {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 0.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.ktSessionDesc {
+    font-size: 0.85rem;
+    color: #4b5563;
+    line-height: 1.55;
+    margin-bottom: 0.4rem;
+}
+
+.ktTakeaways {
+    list-style: disc;
+    padding-left: 1.3rem;
+    font-size: 0.83rem;
+    color: #4b5563;
+}
+
+.ktTakeaways li {
+    margin-bottom: 0.2rem;
 }
 
 /* ===== EDUCATION ===== */
 .educationItem {
-  margin-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 .eduDegree {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1a202c;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a202c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .eduDetails {
-  font-size: 0.88rem;
-  color: #6b7280;
+    font-size: 0.88rem;
+    color: #6b7280;
 }
 
 .certTitle {
-  font-size: 0.92rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin-bottom: 0.3rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 0.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .certList {
-  font-size: 0.88rem;
-  color: #4b5563;
+    font-size: 0.88rem;
+    color: #4b5563;
 }
 
 /* ===== COMPETENCIES ===== */
 .competenciesList {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 0.35rem 2rem;
-  font-size: 0.9rem;
-  color: #374151;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.35rem 2rem;
+    font-size: 0.9rem;
+    color: #374151;
 }
 
 .competenciesList li::before {
-  content: "✓ ";
-  color: #6366f1;
-  font-weight: 700;
+    content: '✓ ';
+    color: #6366f1;
+    font-weight: 700;
 }
 
-/* ===================================================
-   PRINT STYLES — TARGET: MAX 2 PAGES ON A4
-   =================================================== */
+/* =====================================================
+   PRINT STYLES
+   PAGE 1 : Header → Summary → Skills → Experience
+   PAGE 2 : Selected Projects (2 col) → Education
+   ===================================================== */
 @media print {
-  @page {
-    margin: 0.45cm 0.7cm;
-    size: A4 portrait;
-  }
+    @page {
+        margin: 0.5cm 0.7cm;
+        size: A4 portrait;
+    }
 
-  /* ── Reset chrome ── */
-  .resumeWrapper {
-    background: #fff !important;
-    padding: 0 !important;
-    min-height: unset;
-  }
+    /* ── wrapper / chrome reset ── */
+    .resumeWrapper {
+        background: #fff !important;
+        padding: 0 !important;
+        min-height: unset;
+    }
 
-  .actionBar {
-    display: none !important;
-  }
+    .actionBar {
+        display: none !important;
+    }
 
-  .resume {
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    /* Tightest line-height that stays readable */
-    line-height: 1.22 !important;
-    font-size: 0.78rem !important;
-  }
+    .resume {
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        line-height: 1.26 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
 
-  /* ── Header ── */
-  .header {
-    padding-top: 0.5rem !important;
-    margin-bottom: 0.2rem !important;
-  }
+    /* ── HEADER ── */
+    .header {
+        padding-top: 0.5rem !important;
+        margin-bottom: 0.15rem !important;
+        text-align: center !important;
+    }
 
-  .name {
-    font-size: 1.65rem !important;
-    margin-bottom: 0.05rem !important;
-  }
+    .name {
+        font-size: 1.7rem !important;
+        margin-bottom: 0.05rem !important;
+    }
 
-  .jobTitle {
-    font-size: 0.82rem !important;
-    margin-bottom: 0.3rem !important;
-  }
+    .jobTitle {
+        font-size: 0.84rem !important;
+        margin-bottom: 0.28rem !important;
+    }
 
-  .contactRow {
-    gap: 0.55rem !important;
-    font-size: 0.74rem !important;
-  }
+    .contactRow {
+        gap: 0.6rem !important;
+        font-size: 0.74rem !important;
+    }
 
-  .contactRow a {
-    color: #4f46e5 !important;
-    text-decoration: none !important;
-  }
+    .contactRow a {
+        color: #4f46e5 !important;
+        text-decoration: none !important;
+    }
 
-  /* ── Dividers & Sections ── */
-  .divider {
-    margin: 0.15rem 0 !important;
-    border-top-width: 1px !important;
-  }
+    /* ── DIVIDERS ── */
+    .divider {
+        margin: 0.16rem 0 !important;
+        border-top: 1px solid #d1d5db !important;
+        border-bottom: none !important;
+    }
 
-  .section {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    padding: 0.22rem 0 !important;
-  }
+    /* ── SECTIONS ── */
+    .section {
+        padding: 0.26rem 0 !important;
+        margin: 0 !important;
+    }
 
-  .sectionTitle {
-    font-size: 0.8rem !important;
-    margin-bottom: 0.3rem !important;
-    padding-bottom: 0.15rem !important;
-    letter-spacing: 0.06em !important;
-    color: #1a202c !important;
-    border-bottom-color: #6366f1 !important;
-  }
+    .sectionTitle {
+        font-size: 0.81rem !important;
+        letter-spacing: 0.07em !important;
+        margin-bottom: 0.3rem !important;
+        padding-bottom: 0.16rem !important;
+        border-bottom: 1.5px solid #6366f1 !important;
+        color: #1a202c !important;
+    }
 
-  /* ── Summary ── */
-  .summary {
-    font-size: 0.76rem !important;
-    line-height: 1.38 !important;
-  }
+    /* ── SUMMARY ── */
+    .summary {
+        font-size: 0.76rem !important;
+        line-height: 1.42 !important;
+    }
 
-  /* ── Skills — 4-column on print ── */
-  .skillsGrid {
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 0.12rem 0.7rem !important;
-  }
+    /* ── SKILLS — 4 columns ── */
+    .skillsGrid {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 0.1rem 0.6rem !important;
+    }
 
-  .skillCategory {
-    margin-bottom: 0.1rem !important;
-  }
+    .skillCategory {
+        margin-bottom: 0.07rem !important;
+    }
 
-  .skillCategoryTitle {
-    font-size: 0.72rem !important;
-    margin-bottom: 0.05rem !important;
-  }
+    .skillCategoryTitle {
+        font-size: 0.72rem !important;
+        margin-bottom: 0.03rem !important;
+        font-weight: 700 !important;
+    }
 
-  .skillList {
-    font-size: 0.69rem !important;
-    line-height: 1.35 !important;
-  }
+    .skillList {
+        font-size: 0.67rem !important;
+        line-height: 1.38 !important;
+        color: #374151 !important;
+    }
 
-  /* ── Experience ── */
-  .experienceItem {
-    margin-bottom: 0.35rem !important;
-  }
+    /* ── EXPERIENCE ── */
+    .experienceItem {
+        margin-bottom: 0.36rem !important;
+    }
 
-  .expHeader {
-    margin-bottom: 0.15rem !important;
-  }
+    .expHeader {
+        margin-bottom: 0.12rem !important;
+        gap: 0.25rem !important;
+    }
 
-  .expPosition {
-    font-size: 0.8rem !important;
-  }
+    .expPosition {
+        font-size: 0.81rem !important;
+        font-weight: 700 !important;
+    }
 
-  .expCompany {
-    font-size: 0.72rem !important;
-    margin-top: 0 !important;
-  }
+    .expCompany {
+        font-size: 0.71rem !important;
+        margin-top: 0 !important;
+    }
 
-  .expDuration {
-    background: #eef2ff !important;
-    color: #4f46e5 !important;
-    font-size: 0.7rem !important;
-    padding: 0.08rem 0.35rem !important;
-  }
+    .expDuration {
+        font-size: 0.69rem !important;
+        padding: 0.07rem 0.35rem !important;
+        background: #eef2ff !important;
+        color: #4f46e5 !important;
+        border-radius: 3px !important;
+    }
 
-  .expList {
-    padding-left: 1.1rem !important;
-    font-size: 0.72rem !important;
-    line-height: 1.32 !important;
-  }
+    .expList {
+        padding-left: 1rem !important;
+        font-size: 0.72rem !important;
+        line-height: 1.34 !important;
+    }
 
-  .expList li {
-    margin-bottom: 0.1rem !important;
-  }
+    .expList li {
+        margin-bottom: 0.09rem !important;
+    }
 
-  /* ── Projects — 3 columns, ultra-compact ── */
-  .projectsGrid {
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 0.3rem !important;
-  }
+    /* ═══════════════════════════════════════════════
+       PAGE 2 — SELECTED PROJECTS
+       • break-before:page   → always starts fresh
+       • 2 hard columns      → 10 ÷ 2 = 5 full rows
+       • Full descriptions   → cards tall, fills page
+       ═══════════════════════════════════════════════ */
+    .projectsSection {
+        break-before: page !important;
+        page-break-before: always !important;
+        padding: 0.38rem 0 0 0 !important;
+        margin: 0 !important;
+    }
 
-  .projectItem {
-    padding: 0.3rem 0.4rem !important;
-    border-radius: 4px !important;
-    break-inside: avoid !important;
-  }
+    /* ── CRITICAL: override the auto-fit minmax with
+          a hard 2-column declaration ── */
+    .projectsGrid {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;   /* hard 2-col, no minmax */
+        grid-auto-rows: auto !important;
+        gap: 0.5rem !important;
+        width: 100% !important;
+    }
 
-  .projectHeader {
-    margin-bottom: 0.15rem !important;
-    gap: 0.15rem !important;
-  }
+    .projectItem {
+        width: 100% !important;
+        padding: 0.52rem 0.65rem !important;
+        border: 1px solid #d1d5db !important;
+        border-radius: 5px !important;
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+        box-sizing: border-box !important;
+    }
 
-  .projectName {
-    font-size: 0.7rem !important;
-  }
+    .projectHeader {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 0.18rem !important;
+        margin-bottom: 0.2rem !important;
+    }
 
-  .projectCategory {
-    font-size: 0.62rem !important;
-    background: #eef2ff !important;
-    color: #4f46e5 !important;
-    padding: 0.05rem 0.3rem !important;
-  }
+    .projectName {
+        font-size: 0.77rem !important;
+        font-weight: 700 !important;
+        color: #1a202c !important;
+    }
 
-  .projectDesc {
-    font-size: 0.66rem !important;
-    line-height: 1.3 !important;
-    margin-bottom: 0.1rem !important;
-    /* Clamp long descriptions to 3 lines */
-    display: -webkit-box !important;
-    -webkit-line-clamp: 3 !important;
-    -webkit-box-orient: vertical !important;
-    overflow: hidden !important;
-  }
+    .projectCategory {
+        font-size: 0.63rem !important;
+        font-weight: 600 !important;
+        background: #eef2ff !important;
+        color: #4f46e5 !important;
+        padding: 0.05rem 0.3rem !important;
+        border-radius: 3px !important;
+        white-space: nowrap !important;
+    }
 
-  .projectTech {
-    font-size: 0.65rem !important;
-    margin-bottom: 0 !important;
-  }
+    /* Full description — NO line-clamp — fills vertical space */
+    .projectDesc {
+        font-size: 0.7rem !important;
+        line-height: 1.44 !important;
+        color: #4b5563 !important;
+        margin-bottom: 0.15rem !important;
+        display: block !important;          /* cancels any webkit-box */
+        -webkit-line-clamp: unset !important;
+        overflow: visible !important;
+    }
 
-  /* ── Education ── */
-  .educationItem {
-    margin-bottom: 0.2rem !important;
-  }
+    .projectTech {
+        font-size: 0.67rem !important;
+        color: #374151 !important;
+        margin-bottom: 0 !important;
+        line-height: 1.35 !important;
+    }
 
-  .eduDegree {
-    font-size: 0.76rem !important;
-  }
+    /* ── EDUCATION ── */
+    .educationItem {
+        margin-bottom: 0.22rem !important;
+    }
 
-  .eduDetails {
-    font-size: 0.7rem !important;
-  }
+    .eduDegree {
+        font-size: 0.78rem !important;
+        font-weight: 700 !important;
+        color: #1a202c !important;
+    }
 
-  .certTitle {
-    font-size: 0.76rem !important;
-    margin-bottom: 0.1rem !important;
-  }
+    .eduDetails {
+        font-size: 0.7rem !important;
+        color: #6b7280 !important;
+    }
 
-  .certList p {
-    font-size: 0.7rem !important;
-    line-height: 1.35 !important;
-  }
+    .certTitle {
+        font-size: 0.77rem !important;
+        font-weight: 700 !important;
+        margin-bottom: 0.1rem !important;
+        color: #1a202c !important;
+    }
 
-  /* ── KT Sessions (if shown) ── */
-  .ktSessionsGrid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 0.3rem !important;
-  }
-
-  .ktSessionItem {
-    padding: 0.35rem 0.5rem !important;
-  }
-
-  .ktSessionTitle {
-    font-size: 0.72rem !important;
-    margin-bottom: 0.1rem !important;
-  }
-
-  .ktSessionDesc {
-    font-size: 0.66rem !important;
-    margin-bottom: 0.1rem !important;
-  }
-
-  .ktTakeaways {
-    font-size: 0.64rem !important;
-  }
-
-  .ktTakeaways li {
-    margin-bottom: 0.08rem !important;
-  }
+    .certList p {
+        font-size: 0.7rem !important;
+        line-height: 1.42 !important;
+        color: #4b5563 !important;
+    }
 }
 
-/* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE (screen only) ===== */
 @media (max-width: 680px) {
-  .resume {
-    padding: 2rem 1.5rem;
-  }
+    .resume {
+        padding: 2rem 1.5rem;
+    }
 
-  .name {
-    font-size: 1.8rem;
-  }
+    .name {
+        font-size: 1.8rem;
+    }
 
-  .skillsGrid {
-    grid-template-columns: 1fr;
-  }
+    .skillsGrid {
+        grid-template-columns: 1fr;
+    }
 
-  .projectsGrid {
-    grid-template-columns: 1fr;
-  }
+    .projectsGrid {
+        grid-template-columns: 1fr;
+    }
 
-  .competenciesList {
-    grid-template-columns: 1fr;
-  }
+    .competenciesList {
+        grid-template-columns: 1fr;
+    }
 
-  .expHeader {
-    flex-direction: column;
-  }
+    .expHeader {
+        flex-direction: column;
+    }
 }

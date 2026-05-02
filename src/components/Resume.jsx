@@ -3,7 +3,6 @@
 import { personalInfo, projects, experience, education } from '../data/portfolio-data';
 import styles from '../styles/Resume.module.css';
 
-
 const workExperience = [
     {
         position: "Senior Full Stack Developer",
@@ -159,10 +158,7 @@ export default function Resume() {
                     ))}
                 </section>
 
-                <hr className={styles.divider} />
-
-                {/* KEY PROJECTS */}
-                <section className={styles.section}>
+                <section className={`${styles.section} ${styles.projectsSection}`}>
                     <h2 className={styles.sectionTitle}>Selected Projects</h2>
                     <div className={styles.projectsGrid}>
                         {[...projects].reverse().slice(0, 10).map((project) => (
@@ -173,7 +169,7 @@ export default function Resume() {
                                 </div>
                                 <p className={styles.projectDesc}>{project.description}</p>
                                 <p className={styles.projectTech}>
-                                    <strong>Technologies:</strong> {project.technologies.slice(0, 3).join(', ')}
+                                    <strong>Tech:</strong> {project.technologies.slice(0, 4).join(', ')}
                                 </p>
                             </div>
                         ))}
@@ -193,7 +189,7 @@ export default function Resume() {
                     ))}
 
                     <hr className={styles.divider} />
-                    
+
                     <div className={styles.certList}>
                         <h3 className={styles.certTitle}>Continuous Learning & Tools</h3>
                         <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI and Bolt AI. Hands-on experience with AWS EC2 and S3 for deployment and cloud storage.</p>
