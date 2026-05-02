@@ -158,6 +158,8 @@ export default function Resume() {
                     ))}
                 </section>
 
+                <hr style={{ border: "none", borderTop: '2px solid #e2e8f0',  margin: '0.1rem 0', }} />
+
                 <section className={`${styles.section} ${styles.projectsSection}`}>
                     <h2 className={styles.sectionTitle}>Selected Projects</h2>
                     <div className={styles.projectsGrid}>

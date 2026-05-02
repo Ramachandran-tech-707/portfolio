@@ -379,7 +379,7 @@
    ===================================================== */
 @media print {
     @page {
-        margin: 0.5cm 0.7cm;
+        margin: 0.6cm 0.8cm;
         size: A4 portrait;
     }
 
@@ -400,31 +400,31 @@
         padding: 0 !important;
         max-width: 100% !important;
         margin: 0 !important;
-        line-height: 1.26 !important;
+        line-height: 1.5 !important;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
     }
 
     /* ── HEADER ── */
     .header {
-        padding-top: 0.5rem !important;
-        margin-bottom: 0.15rem !important;
+        padding-top: 0.6rem !important;
+        margin-bottom: 0.25rem !important;
         text-align: center !important;
     }
 
     .name {
-        font-size: 1.7rem !important;
-        margin-bottom: 0.05rem !important;
+        font-size: 1.9rem !important;
+        margin-bottom: 0.1rem !important;
     }
 
     .jobTitle {
-        font-size: 0.84rem !important;
-        margin-bottom: 0.28rem !important;
+        font-size: 0.92rem !important;
+        margin-bottom: 0.35rem !important;
     }
 
     .contactRow {
-        gap: 0.6rem !important;
-        font-size: 0.74rem !important;
+        gap: 0.7rem !important;
+        font-size: 0.78rem !important;
     }
 
     .contactRow a {
@@ -434,91 +434,91 @@
 
     /* ── DIVIDERS ── */
     .divider {
-        margin: 0.16rem 0 !important;
+        margin: 0.3rem 0 !important;
         border-top: 1px solid #d1d5db !important;
         border-bottom: none !important;
     }
 
     /* ── SECTIONS ── */
     .section {
-        padding: 0.26rem 0 !important;
+        padding: 0.42rem 0 !important;
         margin: 0 !important;
     }
 
     .sectionTitle {
-        font-size: 0.81rem !important;
+        font-size: 0.86rem !important;
         letter-spacing: 0.07em !important;
-        margin-bottom: 0.3rem !important;
-        padding-bottom: 0.16rem !important;
+        margin-bottom: 0.45rem !important;
+        padding-bottom: 0.2rem !important;
         border-bottom: 1.5px solid #6366f1 !important;
         color: #1a202c !important;
     }
 
     /* ── SUMMARY ── */
-    .summary {
-        font-size: 0.76rem !important;
-        line-height: 1.42 !important;
+     .summary {
+        font-size: 0.82rem !important;
+        line-height: 1.62 !important;
     }
 
     /* ── SKILLS — 4 columns ── */
     .skillsGrid {
         display: grid !important;
         grid-template-columns: repeat(4, 1fr) !important;
-        gap: 0.1rem 0.6rem !important;
+        gap: 0.18rem 0.7rem !important;
     }
 
     .skillCategory {
-        margin-bottom: 0.07rem !important;
+        margin-bottom: 0.12rem !important;
     }
 
     .skillCategoryTitle {
-        font-size: 0.72rem !important;
-        margin-bottom: 0.03rem !important;
+        font-size: 0.76rem !important;
+        margin-bottom: 0.06rem !important;
         font-weight: 700 !important;
     }
 
     .skillList {
-        font-size: 0.67rem !important;
-        line-height: 1.38 !important;
+        font-size: 0.72rem !important;
+        line-height: 1.52 !important;
         color: #374151 !important;
     }
 
     /* ── EXPERIENCE ── */
     .experienceItem {
-        margin-bottom: 0.36rem !important;
+        margin-bottom: 0.65rem !important;
     }
 
     .expHeader {
-        margin-bottom: 0.12rem !important;
-        gap: 0.25rem !important;
+        margin-bottom: 0.22rem !important;
+        gap: 0.3rem !important;
     }
 
     .expPosition {
-        font-size: 0.81rem !important;
+        font-size: 0.86rem !important;
         font-weight: 700 !important;
     }
 
     .expCompany {
-        font-size: 0.71rem !important;
-        margin-top: 0 !important;
+        font-size: 0.76rem !important;
+        margin-top: 0.02rem !important;
     }
 
     .expDuration {
-        font-size: 0.69rem !important;
-        padding: 0.07rem 0.35rem !important;
+        font-size: 0.74rem !important;
+        padding: 0.1rem 0.4rem !important;
         background: #eef2ff !important;
         color: #4f46e5 !important;
         border-radius: 3px !important;
     }
 
     .expList {
-        padding-left: 1rem !important;
-        font-size: 0.72rem !important;
+        padding-left: 1.1rem !important;
+        font-size: 0.78rem !important;
         line-height: 1.34 !important;
     }
 
     .expList li {
-        margin-bottom: 0.09rem !important;
+        margin-bottom: 0.2rem !important;
     }
 
     /* ═══════════════════════════════════════════════
@@ -527,12 +527,12 @@
        • 2 hard columns      → 10 ÷ 2 = 5 full rows
        • Full descriptions   → cards tall, fills page
        ═══════════════════════════════════════════════ */
-    .projectsSection {
+    /* .projectsSection {
         break-before: page !important;
         page-break-before: always !important;
         padding: 0.38rem 0 0 0 !important;
         margin: 0 !important;
-    }
+    } */
 
     /* ── CRITICAL: override the auto-fit minmax with
           a hard 2-column declaration ── */
@@ -581,7 +581,7 @@
 
     /* Full description — NO line-clamp — fills vertical space */
     .projectDesc {
-        font-size: 0.7rem !important;
+        font-size: 0.75rem !important;
         line-height: 1.44 !important;
         color: #4b5563 !important;
         margin-bottom: 0.15rem !important;
@@ -591,7 +591,7 @@
     }
 
     .projectTech {
-        font-size: 0.67rem !important;
+        font-size: 0.72rem !important;
         color: #374151 !important;
         margin-bottom: 0 !important;
         line-height: 1.35 !important;
@@ -609,7 +609,7 @@
     }
 
     .eduDetails {
-        font-size: 0.7rem !important;
+        font-size: 0.76rem !important;
         color: #6b7280 !important;
     }
 
