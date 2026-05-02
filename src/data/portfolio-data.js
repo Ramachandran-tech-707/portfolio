@@ -16,7 +16,11 @@ export const skills = {
         "Python (Fast APIs)",
         "Laravel",
         "PHP",
-        "REST API"
+        "REST API",
+        "RESTful API Design",
+        "WebSockets",
+        "Async Programming",
+        "JSON / XML Handling"
     ],
     "Frontend Development": [
         "Next.js",
@@ -25,6 +29,9 @@ export const skills = {
         "TypeScript",
         "HTML",
         "Custom CSS",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Material UI (MUI)",
         "Responsive Design"
     ],
     "Databases": [
@@ -32,6 +39,16 @@ export const skills = {
         "MySQL",
         "PostgreSQL",
         "Database Design"
+    ],
+    "Cloud & DevOps": [
+        "AWS EC2",
+        "AWS S3",
+        "Git",
+        "GitHub/GitLab",
+        "Version Control",
+        "Docker (Basic Knowledge)",
+        "Kubernetes (Basic Knowledge)",
+        "CI/CD Workflows"
     ],
     "Blockchain & Crypto": [
         "NFT Applications",
@@ -74,13 +91,6 @@ export const skills = {
         "Data Extraction",
         "API Integration",
         "Automation Scripts"
-    ],
-    "Version Control & Tools": [
-        "Git",
-        "GitHub/GitLab",
-        "Version Control",
-        "Docker (Basic Knowledge)",
-        "Kubernetes (Basic Knowledge)",
     ],
     '3rd Party APIs & Webhooks': [
         'REST API Integration',
@@ -166,7 +176,7 @@ export const projects = [
         title: "Enterprise E-commerce Platform",
         category: "E-commerce",
         description: "Scalable e-commerce solution with inventory management, payment gateway integration, and advanced analytics. Handles thousands of products and concurrent users.",
-        technologies: ["Laravel", "Node.js", "Express.js", "Mongo DB", "Payment APIs"],
+        technologies: ["Laravel", "Node.js", "Mongo DB", "Payment APIs"],
         highlights: [
             "Multi-vendor support",
             "Inventory management",
@@ -303,7 +313,11 @@ export const experience = [
             "Handled blockchain event listeners for real-time transaction notifications",
             "Integrated WalletConnect and multi-chain wallet systems for DeFi and NFT platforms",
             "Conducted and led technical Knowledge Transfer (KT) sessions for developers and cross-functional teams on topics including Advanced Next.js, AI Agents, n8n Automation, and Web3 concepts",
-            "Designed AI-powered presentations (Canva, GenSpark AI, Gamma AI) and architectural diagrams (Whimsical AI, Draw.io) to bridge communication between technical teams and clients"
+            "Designed AI-powered presentations (Canva, GenSpark AI, Gamma AI) and architectural diagrams (Whimsical AI, Draw.io) to bridge communication between technical teams and clients",
+            "Applied state management patterns using Redux Toolkit and React Context API across complex front-end applications",
+            "Used Tailwind CSS, Bootstrap, and Material UI (MUI) for building responsive, accessible, and modern UI components",
+            "Implemented WebSocket-based real-time features including live order books, trade feeds, and chat systems",
+            "Managed asynchronous operations using Promises, async/await, and event-driven architecture across Node.js services"
         ]
     }
 ];

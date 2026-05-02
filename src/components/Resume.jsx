@@ -15,9 +15,12 @@ const workExperience = [
             "Built a MetaMask-like browser wallet extension (Chrome/Firefox) using Vite and React.js with Web3 provider injection, HD wallet support, ERC-20 and ERC-721 token management, and WalletConnect v2 integration",
             "Implemented a universal wallet connector supporting MetaMask, WalletConnect (300+ wallets), Coinbase Wallet, and Trust Wallet with multi-chain session persistence",
             "Architected scalable e-commerce platforms with multi-vendor support, inventory management, and payment gateway integrations handling thousands of concurrent users",
-            "Developed a full-featured cryptocurrency exchange with real-time order book, WebSocket-driven trading engine, and advanced charting including limit, market, and stop-loss orders",
+            "Developed a full-featured cryptocurrency exchange with real-time order book via WebSockets, trading engine, and advanced charting including limit, market, and stop-loss orders",
             "Integrated AI-powered automation workflows using n8n with Claude, ChatGPT, and Gemini AI, reducing manual business processes by 70%",
-            "Built and maintained RESTful APIs and microservices using Node.js, Express.js, Laravel, and Python FastAPI",
+            "Built and maintained RESTful APIs and microservices following REST design principles using Node.js, Express.js, Laravel, and Python FastAPI",
+            "Applied state management patterns using Redux and React Context API across complex front-end applications",
+            "Built modern, responsive UIs using Tailwind CSS, Bootstrap, and Material UI (MUI) with a focus on accessibility and cross-device compatibility",
+            "Managed asynchronous operations using Promises, async/await, and event-driven architecture for high-throughput Node.js services",
             "Deployed blockchain event listeners for real-time transaction notifications across EVM-compatible chains",
             "Maintained version control using Git, GitHub, and GitLab, with hands-on experience in CI/CD workflows, Docker, and Kubernetes",
         ]
@@ -28,8 +31,10 @@ const workExperience = [
         duration: "Dec 2018 - Aug 2021",
         subtitle: "Web Scraping, Product Management & E-commerce Automation",
         responsibilities: [
-            "Built Core PHP-based web scraping solutions for Amazon and other e-commerce sites to collect and normalize bulk product data.",
+            "Built Core PHP-based web scraping solutions for Amazon and other e-commerce sites to collect and normalize bulk product data at scale.",
+            "Deployed and managed applications on AWS EC2 instances; used AWS S3 for scalable storage of scraped datasets, product images, and report exports.",
             "Developed management applications for scraped records, reporting, and data tracking using HTML, CSS, Core PHP, jQuery, and MongoDB.",
+            "Handled JSON and XML data parsing, transformation, and API integration for automated product data pipelines.",
             "Improved data handling workflows for inventory, product analysis, and reusable business reports."
         ]
     },
@@ -85,6 +90,7 @@ export default function Resume() {
                     <p className={styles.summary}>
                         Senior Full Stack Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
                         Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, and DeFi platforms using Next.js, Node.js, and Solidity.
+                        Skilled in modern UI frameworks (Tailwind CSS, MUI, Bootstrap), state management (Redux, Context API), real-time systems (WebSockets), and cloud infrastructure (AWS EC2, S3).
                         Adept at leveraging AI to automate complex workflows and driving technical execution across high-impact projects.
                     </p>
                 </section>
@@ -100,6 +106,18 @@ export default function Resume() {
                             <p className={styles.skillList}>Next.js, React.js, Node.js, Express.js, JavaScript, TypeScript, Python (FastAPI), HTML/CSS</p>
                         </div>
                         <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>UI/UX & Styling</h3>
+                            <p className={styles.skillList}>Tailwind CSS, Bootstrap, Material UI (MUI), Responsive Design, Custom CSS</p>
+                        </div>
+                        <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>State Management</h3>
+                            <p className={styles.skillList}>Redux, React Context API</p>
+                        </div>
+                        <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>APIs & Real-time</h3>
+                            <p className={styles.skillList}>RESTful API Design, WebSockets, Async/Await, JSON/XML Handling, Webhook Integration, OAuth</p>
+                        </div>
+                        <div className={styles.skillCategory}>
                             <h3 className={styles.skillCategoryTitle}>Web3 & Blockchain</h3>
                             <p className={styles.skillList}>Solidity, Ethers.js, Web3.js, WalletConnect v2, Smart Contracts, Crypto Wallets, DeFi, DEX, NFT Platforms</p>
                         </div>
@@ -108,8 +126,12 @@ export default function Resume() {
                             <p className={styles.skillList}>n8n, ChatGPT/GPT Models, Claude, Gemini, Cursor AI, Agentic Workflows</p>
                         </div>
                         <div className={styles.skillCategory}>
+                            <h3 className={styles.skillCategoryTitle}>Cloud & Infrastructure</h3>
+                            <p className={styles.skillList}>AWS EC2, AWS S3, Docker (Basic), Kubernetes (Basic), CI/CD Workflows</p>
+                        </div>
+                        <div className={styles.skillCategory}>
                             <h3 className={styles.skillCategoryTitle}>Databases & Tools</h3>
-                            <p className={styles.skillList}>MongoDB, MySQL, PostgreSQL, Git, REST APIs, Microservices Architecture</p>
+                            <p className={styles.skillList}>MongoDB, MySQL, PostgreSQL, Git, GitHub/GitLab, Microservices Architecture</p>
                         </div>
                     </div>
                 </section>
@@ -174,7 +196,7 @@ export default function Resume() {
                     
                     <div className={styles.certList}>
                         <h3 className={styles.certTitle}>Continuous Learning & Tools</h3>
-                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI and Bolt AI.</p>
+                        <p>Self-driven professional development in Blockchain, Web3, Smart Contract development using Solidity, AI and full-stack technologies. Experienced with modern tools including Cursor IDE, Replit, n8n, GitHub Copilot, Anti-Gravity AI and Bolt AI. Hands-on experience with AWS EC2 and S3 for deployment and cloud storage.</p>
                     </div>
                 </section>
 
