@@ -1,12 +1,12 @@
 export const personalInfo = {
-    name: "Senior Software Developer",
+    name: "Team Lead - Full Stack Developer",
     title: "Full Stack Developer | Blockchain & Web3 Specialist",
-    experience: "7+ Years",
+    experience: "8 Years",
     phone: "+91 9524924607",
     email: "chandrur707@gmail.com",
     github: "https://github.com/Ramachandran-tech-707",
     linkedin: "https://linkedin.com/in/chandrur707",
-    description: "Passionate Senior Full Stack Developer with 7+ years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
+    description: "Passionate Team Lead - Full Stack Developer with 8 years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
 };
 
 export const skills = {
@@ -289,15 +289,54 @@ export const projects = [
             "Chrome extension support",
             "Web3 DApp connection (inject provider)"
         ]
+    },
+    {
+        id: 11,
+        title: "GreenEx India Futures Trading Platform",
+        category: "Blockchain",
+        description: "Developed a GreenEx India cryptocurrency trading web application using Vite and React.js with futures trading workflows, Risk Management System (RMS) modules, TradingView charts, broker API integrations, and VAPT security assessment support.",
+        technologies: [
+            "Vite",
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "TradingView Charts",
+            "Broker APIs",
+            "Risk Management System (RMS)",
+            "VAPT Security"
+        ],
+        highlights: [
+            "Futures trading workflows",
+            "Pre-trade risk validation",
+            "Margin, position, and exposure checks",
+            "U2P order matching methods",
+            "TradingView chart integration",
+            "Broker API-based market data and trading services",
+            "VAPT security assessment and remediation support"
+        ]
     }
 ];
 
 export const experience = [
     {
         id: 1,
+        position: "Team Lead - Full Stack Developer",
+        company: "Maticz Technologies Pvt Ltd",
+        duration: "Jul 2026 - Present",
+        responsibilities: [
+            "Led full-stack development of the GreenEx India cryptocurrency trading web application, focused on futures trading workflows",
+            "Implemented Risk Management System (RMS) modules for pre-trade risk validation, margin and position checks, exposure controls, and order eligibility",
+            "Built order-processing and U2P (user-to-platform) matching methods to validate and match futures orders across the trading workflow",
+            "Integrated TradingView charts and broker API-based market data and trading services into the futures trading platform",
+            "Implemented VAPT security systems and supported security assessment, vulnerability remediation, and hardening across the application",
+            "Developed real-time trading functionality and backend services for reliable order handling, risk enforcement, and futures platform operations"
+        ]
+    },
+    {
+        id: 2,
         position: "Senior Full Stack Developer",
-        company: "Current Position",
-        duration: "7+ Years Total Experience",
+        company: "Pixel Web Solutions",
+        duration: "Sep 2021 - May 2026",
         responsibilities: [
             "Lead development of blockchain applications including NFT platforms, ICO/IEO systems, and crypto payment gateways",
             "Architected and deployed scalable e-commerce solutions handling high traffic and transaction volumes",

@@ -92,7 +92,7 @@ export default function Footer() {
 
                 <div className={styles.footerBottom}>
                     <div className={styles.copyright}>
-                        <p>© {currentYear} Senior Software Developer. All rights reserved.</p>
+                        <p>© {currentYear} Team Lead - Full Stack Developer. All rights reserved.</p>
                         <p className={styles.builtWith}>
                             Built with ❤️ using Next.js & Custom CSS
                         </p>

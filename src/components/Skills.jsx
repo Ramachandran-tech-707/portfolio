@@ -12,7 +12,7 @@ export default function Skills() {
             <div className="container">
                 <h2 className="section-title fade-in">Technical Expertise</h2>
                 <p className="section-subtitle fade-in delay-1">
-                    A comprehensive toolkit built over 7 years of development experience
+                    A comprehensive toolkit built over 8 years of development experience
                 </p>
 
                 <div className={styles.skillsGrid}>

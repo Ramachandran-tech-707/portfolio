@@ -81,7 +81,7 @@ export default function Hero() {
 
                     <div className={`${styles.stats} fade-in delay-5`}>
                         <div className={styles.statItem}>
-                            <div className={styles.statNumber}>7+</div>
+                            <div className={styles.statNumber}>8</div>
                             <div className={styles.statLabel}>Years Experience</div>
                         </div>
                         <div className={styles.statItem}>
@@ -126,7 +126,7 @@ export default function Hero() {
                             <div className={styles.codeLine} style={{ paddingLeft: '20px' }}>
                                 <span className={styles.property}>name</span>
                                 <span className={styles.operator}>: </span>
-                                <span className={styles.string}>'Senior Full Stack Developer'</span>
+                                <span className={styles.string}>'Team Lead - Full Stack Developer'</span>
                                 <span className={styles.punctuation}>,</span>
                             </div>
                             <div className={styles.codeLine} style={{ paddingLeft: '20px' }}>

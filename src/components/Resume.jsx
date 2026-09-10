@@ -5,10 +5,24 @@ import styles from '../styles/Resume.module.css';
 
 const workExperience = [
     {
+        position: "Team Lead - Full Stack Developer",
+        company: "Maticz Technologies Pvt Ltd",
+        duration: "Jul 2026 - Present",
+        subtitle: "Full-time",
+        responsibilities: [
+            "Led full-stack development of the GreenEx India cryptocurrency trading web application, focused on futures trading workflows",
+            "Implemented Risk Management System (RMS) modules for pre-trade risk validation, margin and position checks, exposure controls, and order eligibility",
+            "Built order-processing and U2P (user-to-platform) matching methods to validate and match futures orders across the trading workflow",
+            "Integrated TradingView charts and broker API-based market data and trading services into the futures trading platform",
+            "Implemented VAPT security systems and supported security assessment, vulnerability remediation, and hardening across the application",
+            "Developed real-time trading functionality and backend services for reliable order handling, risk enforcement, and futures platform operations"
+        ]
+    },
+    {
         position: "Senior Full Stack Developer",
         company: "Pixel Web Solutions",
-        duration: "Sep 2021 - Present",
-        subtitle: "Current Role | Full-time",
+        duration: "Sep 2021 - May 2026",
+        subtitle: "Full-time",
         responsibilities: [
             "Led end-to-end development of blockchain applications including NFT marketplaces, ICO/IEO platforms, and custom cryptocurrency payment gateways supporting multiple blockchains",
             "Built a MetaMask-like browser wallet extension (Chrome/Firefox) using Vite and React.js with Web3 provider injection, HD wallet support, ERC-20 and ERC-721 token management, and WalletConnect v2 integration",
@@ -26,7 +40,7 @@ const workExperience = [
     },
     {
         position: "Senior Software Developer",
-        company: "DivInfosys",
+        company: "DivInfosys Pvt Ltd",
         duration: "Dec 2018 - Aug 2021",
         subtitle: "Web Scraping, Product Management & E-commerce Automation",
         responsibilities: [
@@ -71,7 +85,7 @@ export default function Resume() {
                 {/* HEADER */}
                 <header className={styles.header}>
                     <h1 className={styles.name}>T.Ramachandran</h1>
-                    <p className={styles.jobTitle}>Senior Full Stack Developer | Blockchain & Web3 Specialist</p>
+                    <p className={styles.jobTitle}>Team Lead - Full Stack Developer | Blockchain & Web3 Specialist</p>
                     <div className={styles.contactRow}>
                         <span>📞 <a href={`tel:${personalInfo.phone}`}>{personalInfo.phone}</a></span>
                         <span>📧 <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a></span>
@@ -87,7 +101,7 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Professional Summary</h2>
                     <p className={styles.summary}>
-                        Senior Full Stack Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
+                        Lead Full Stack Developer with 8 years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
                         Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, and DeFi platforms using Next.js, Node.js, and Solidity.
                         Skilled in modern UI frameworks (Tailwind CSS, MUI, Bootstrap), state management (Redux, Context API), real-time systems (WebSockets), and cloud infrastructure (AWS EC2, S3).
                         Adept at leveraging AI to automate complex workflows and driving technical execution across high-impact projects.

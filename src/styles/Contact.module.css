@@ -109,6 +109,7 @@
 }
 
 .contactForm {
+  display: none;
   background: var(--card-bg);
   padding: 3rem;
   border-radius: 20px;
