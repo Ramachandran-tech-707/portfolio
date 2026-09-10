@@ -64,6 +64,9 @@ export default function Navigation() {
                     <Link href="/resume" className={`btn btn-secondary ${styles.resumeBtn}`}>
                         📄 Resume
                     </Link>
+                    <Link href="/cover-letter" className={`btn btn-secondary ${styles.resumeBtn}`}>
+                        ✉️ Cover Letter
+                    </Link>
                     <a href="#contact" className={`btn btn-primary ${styles.ctaBtn}`}>
                         Hire Me
                     </a>
