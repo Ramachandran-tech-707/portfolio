@@ -101,10 +101,10 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Professional Summary</h2>
                     <p className={styles.summary}>
-                        Lead Full Stack Developer with 8 years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
-                        Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, and DeFi platforms using Next.js, Node.js, and Solidity.
-                        Skilled in modern UI frameworks (Tailwind CSS, MUI, Bootstrap), state management (Redux, Context API), real-time systems (WebSockets), and cloud infrastructure (AWS EC2, S3).
-                        Adept at leveraging AI to automate complex workflows and driving technical execution across high-impact projects.
+                        Team Lead - Full Stack Developer with 8 years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
+                        Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, DeFi platforms, and futures trading systems using Node.js, Express.js, React.js, Next.js, Vite, and modern web technologies.
+                        Skilled in RMS implementation, TradingView and broker API integrations, VAPT security systems, real-time services, cloud infrastructure, and modern engineering practices.
+                        Experienced in handling development teams, coordinating technical execution, and delivering high-quality solutions across complex projects.
                     </p>
                 </section>
 
