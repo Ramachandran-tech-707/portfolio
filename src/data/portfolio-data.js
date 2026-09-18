@@ -322,7 +322,7 @@ export const experience = [
         id: 1,
         position: "Team Lead - Full Stack Developer",
         company: "Maticz Technologies Pvt Ltd",
-        duration: "Jul 2026 - Present",
+        duration: "Jul 2026 - Sep 2026",
         responsibilities: [
             "Led full-stack development of the GreenEx India cryptocurrency trading web application, focused on futures trading workflows",
             "Implemented Risk Management System (RMS) modules for pre-trade risk validation, margin and position checks, exposure controls, and order eligibility",

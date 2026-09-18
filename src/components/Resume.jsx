@@ -7,7 +7,7 @@ const workExperience = [
     {
         position: "Team Lead - Full Stack Developer",
         company: "Maticz Technologies Pvt Ltd",
-        duration: "Jul 2026 - Present",
+        duration: "Jul 2026 - Sep 2026",
         subtitle: "Full-time",
         responsibilities: [
             "Led full-stack development of the GreenEx India cryptocurrency trading web application, focused on futures trading workflows",
