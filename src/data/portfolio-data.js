@@ -1,12 +1,12 @@
 export const personalInfo = {
     name: "Team Lead - Full Stack Developer",
     title: "Full Stack Developer | Blockchain & Web3 Specialist",
-    experience: "8 Years",
+    experience: "7+ Years",
     phone: "+91 9524924607",
     email: "chandrur707@gmail.com",
     github: "https://github.com/Ramachandran-tech-707",
     linkedin: "https://linkedin.com/in/chandrur707",
-    description: "Passionate Team Lead - Full Stack Developer with 8 years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
+    description: "Passionate Team Lead - Full Stack Developer with 7+ years of experience building scalable web applications, blockchain systems, and modern Web3 solutions. Specialized in crypto wallets, DeFi integrations, NFT platforms, and AI-powered automation tools."
 };
 
 export const skills = {

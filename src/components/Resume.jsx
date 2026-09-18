@@ -101,7 +101,7 @@ export default function Resume() {
                 <section className={styles.section}>
                     <h2 className={styles.sectionTitle}>Professional Summary</h2>
                     <p className={styles.summary}>
-                        Team Lead - Full Stack Developer with 8 years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
+                        Team Lead - Full Stack Developer with 7+ years of experience architecting scalable full-stack applications, Web3 ecosystems, and AI integrations.
                         Proven expertise in building cryptocurrency payment gateways, MetaMask-like browser extensions, DeFi platforms, and futures trading systems using Node.js, Express.js, React.js, Next.js, Vite, and modern web technologies.
                         Skilled in RMS implementation, TradingView and broker API integrations, VAPT security systems, real-time services, cloud infrastructure, and modern engineering practices.
                         Experienced in handling development teams, coordinating technical execution, and delivering high-quality solutions across complex projects.

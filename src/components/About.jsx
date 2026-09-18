@@ -9,7 +9,7 @@ export default function About() {
             <div className="container">
                 <h2 className="section-title fade-in">About Me</h2>
                 <p className="section-subtitle fade-in delay-1">
-                    Passionate developer with 8 years of experience building innovative solutions
+                    Passionate developer with 7+ years of experience building innovative solutions
                 </p>
 
                 <div className={styles.aboutContent}>
@@ -19,7 +19,7 @@ export default function About() {
                                 Hello! I'm a <span className="gradient-text">Team Lead - Full Stack Developer</span>
                             </h3>
                             <p className={styles.introText}>
-                                With over 8 years of hands-on experience in the tech industry, I specialize in
+                                With over 7+ years of hands-on experience in the tech industry, I specialize in
                                 building cutting-edge applications across blockchain, e-commerce, and AI domains.
                                 My journey has been driven by a passion for solving complex problems and creating
                                 scalable solutions that make a real impact.

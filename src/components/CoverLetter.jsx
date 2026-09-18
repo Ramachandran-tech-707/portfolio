@@ -33,7 +33,7 @@ export default function CoverLetter() {
 
                 <p>Dear Hiring Manager,</p>
 
-                <p>With 8 years of experience in software engineering, I have designed and delivered production systems across full-stack development, blockchain and Web3, AI automation, trading platforms, and enterprise commerce. I am writing to express my interest in a Team Lead or Senior Full Stack Developer role where I can combine hands-on engineering with team leadership, client communication, and end-to-end delivery ownership.</p>
+                <p>With 7+ years of experience in software engineering, I have designed and delivered production systems across full-stack development, blockchain and Web3, AI automation, trading platforms, and enterprise commerce. I am writing to express my interest in a Team Lead or Senior Full Stack Developer role where I can combine hands-on engineering with team leadership, client communication, and end-to-end delivery ownership.</p>
 
                 <p>From July 2026 to September 2026, I served as Team Lead - Full Stack Developer at Maticz Technologies, where I led development for the GreenEx India cryptocurrency trading platform and coordinated technical execution across the team. My work included futures trading workflows, Risk Management System modules for pre-trade validation and exposure controls, U2P order matching, TradingView and broker API integrations, real-time services, and VAPT security remediation. I also managed client calls, clarified requirements, communicated progress, resolved delivery concerns, and helped ensure commitments reached production on time.</p>
 
